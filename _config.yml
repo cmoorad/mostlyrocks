@@ -19,18 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Mostly Rocks"
-email: cmoorad@gmail.com
+email: "cmoorad@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  "Climbing, skiing, gardening, baking, and creative adventures."
+  Climbing, skiing, gardening, baking, and creative adventures.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""https://www.mostlyrocks.com"
+url: "https://www.mostlyrocks.com" # Removed the extra quotation mark
 twitter_username: "n/a"
-github_username:  "cmoorad"
+github_username: "cmoorad" # Removed extra space before the value
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
