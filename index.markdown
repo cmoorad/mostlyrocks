@@ -4,3 +4,8 @@
 
 layout: default
 ---
+
+---
+title: "Welcome to Mostly Rocks"
+---
+Welcome to my blog!
