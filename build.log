@@ -1,0 +1,497 @@
+  Logging at level: debug
+    Jekyll Version: 4.4.1
+Configuration file: /Users/christophermoorad/mostlyrocks/_config.yml
+             Theme: minimal-mistakes-jekyll
+      Theme source: /opt/homebrew/lib/ruby/gems/3.4.0/gems/minimal-mistakes-jekyll-4.26.2
+         Requiring: jekyll-paginate
+         Requiring: jekyll-sitemap
+         Requiring: jekyll-gist
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+         Requiring: jekyll-feed
+         Requiring: jekyll-include-cache
+         Requiring: jekyll-feed
+         Requiring: jekyll-seo-tag
+            Source: /Users/christophermoorad/mostlyrocks
+       Destination: /Users/christophermoorad/mostlyrocks/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+           Reading: /_layouts/archive-taxonomy.html
+           Reading: /_layouts/archive.html
+           Reading: /_layouts/categories.html
+           Reading: /_layouts/category.html
+           Reading: /_layouts/collection.html
+           Reading: /_layouts/compress.html
+           Reading: /_layouts/default.html
+           Reading: /_layouts/home.html
+           Reading: /_layouts/posts.html
+           Reading: /_layouts/search.html
+           Reading: /_layouts/single.html
+           Reading: /_layouts/splash.html
+           Reading: /_layouts/tag.html
+           Reading: /_layouts/tags.html
+       EntryFilter: excluded /Gemfile
+       EntryFilter: excluded /Gemfile.lock
+       EntryFilter: excluded /.jekyll-cache
+           Reading: _posts/2025-02-23-welcome-to-jekyll.markdown
+           Reading: assets/css/main.scss
+           Reading: assets/js/lunr/lunr-gr.js
+           Reading: assets/js/lunr/lunr-en.js
+           Reading: assets/js/lunr/lunr-store.js
+           Reading: index.html
+           Reading: 404.html
+           Reading: about.markdown
+           Reading: assets/css/main.scss
+             Theme: Ignoring assets/css/main.scss in theme due to existing file with that path in site.
+           Reading: assets/js/lunr/lunr-en.js
+             Theme: Ignoring assets/js/lunr/lunr-en.js in theme due to existing file with that path in site.
+           Reading: assets/js/lunr/lunr-gr.js
+             Theme: Ignoring assets/js/lunr/lunr-gr.js in theme due to existing file with that path in site.
+           Reading: assets/js/lunr/lunr-store.js
+             Theme: Ignoring assets/js/lunr/lunr-store.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/lunr/lunr.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/lunr/lunr.min.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/main.min.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/main.min.js.map in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/gumshoe.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/jquery.ba-throttle-debounce.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/jquery.fitvids.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/jquery.greedy-navigation.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/jquery.magnific-popup.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/plugins/smooth-scroll.js in theme due to existing file with that path in site.
+             Theme: Ignoring /assets/js/vendor/jquery/jquery-3.6.0.js in theme due to existing file with that path in site.
+           Reading: _data/navigation.yml
+           Reading: _data/ui-text.yml
+       Jekyll Feed: Generating feed for posts
+        Generating: JekyllFeed::Generator finished in 0.001155 seconds.
+        Generating: Jekyll::Paginate::Pagination finished in 5.0e-06 seconds.
+        Generating: Jekyll::JekyllSitemap finished in 0.002075 seconds.
+         Rendering: _posts/2025-02-23-welcome-to-jekyll.markdown
+  Pre-Render Hooks: _posts/2025-02-23-welcome-to-jekyll.markdown
+  Rendering Liquid: _posts/2025-02-23-welcome-to-jekyll.markdown
+  Rendering Markup: _posts/2025-02-23-welcome-to-jekyll.markdown
+Post-Convert Hooks: _posts/2025-02-23-welcome-to-jekyll.markdown
+  Rendering Layout: _posts/2025-02-23-welcome-to-jekyll.markdown
+         Rendering: _posts/2025-02-23-welcome-to-jekyll.markdown/#excerpt
+  Pre-Render Hooks: _posts/2025-02-23-welcome-to-jekyll.markdown/#excerpt
+  Rendering Markup: _posts/2025-02-23-welcome-to-jekyll.markdown/#excerpt
+Post-Convert Hooks: _posts/2025-02-23-welcome-to-jekyll.markdown/#excerpt
+Include cache miss: /Users/christophermoorad/mostlyrocks/_includes/skip-links.html
+Include cache miss: /Users/christophermoorad/mostlyrocks/_includes/masthead.html
+Include cache miss: /Users/christophermoorad/mostlyrocks/_includes/footer.html
+         Rendering: 404.html
+  Pre-Render Hooks: 404.html
+  Rendering Markup: 404.html
+Post-Convert Hooks: 404.html
+  Rendering Layout: 404.html
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/skip-links.html
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/masthead.html
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/footer.html
+         Rendering: about.markdown
+  Pre-Render Hooks: about.markdown
+  Rendering Markup: about.markdown
+Post-Convert Hooks: about.markdown
+  Rendering Layout: about.markdown
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/skip-links.html
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/masthead.html
+ Include cache hit: /Users/christophermoorad/mostlyrocks/_includes/footer.html
+         Rendering: index.html
+  Pre-Render Hooks: index.html
+  Rendering Markup: index.html
+Post-Convert Hooks: index.html
+  Rendering Layout: index.html
+         Rendering: assets/js/lunr/lunr-en.js
+  Pre-Render Hooks: assets/js/lunr/lunr-en.js
+  Rendering Liquid: assets/js/lunr/lunr-en.js
+  Rendering Markup: assets/js/lunr/lunr-en.js
+Post-Convert Hooks: assets/js/lunr/lunr-en.js
+         Rendering: assets/js/lunr/lunr-gr.js
+  Pre-Render Hooks: assets/js/lunr/lunr-gr.js
+  Rendering Liquid: assets/js/lunr/lunr-gr.js
+  Rendering Markup: assets/js/lunr/lunr-gr.js
+Post-Convert Hooks: assets/js/lunr/lunr-gr.js
+         Rendering: assets/js/lunr/lunr-store.js
+  Pre-Render Hooks: assets/js/lunr/lunr-store.js
+  Rendering Liquid: assets/js/lunr/lunr-store.js
+  Rendering Markup: assets/js/lunr/lunr-store.js
+Post-Convert Hooks: assets/js/lunr/lunr-store.js
+         Rendering: assets/css/main.scss
+  Pre-Render Hooks: assets/css/main.scss
+  Rendering Liquid: assets/css/main.scss
+  Rendering Markup: assets/css/main.scss
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │ @import "minimal-mistakes/skins/default"; // skin
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 3:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "minimal-mistakes"; // main partials
+  │         ^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "minimal-mistakes/copyright";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    minimal-mistakes.scss 2:9                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "minimal-mistakes/variables";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    minimal-mistakes.scss 5:9                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "minimal-mistakes/vendor/breakpoint/breakpoint";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    minimal-mistakes.scss 8:9                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+62 │ $dark-gray: mix(#000, $gray, 50%) !default;
+   │             ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_variables.scss 62:13  @import
+    minimal-mistakes.scss 5:9                                                          @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                      root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+63 │ $darker-gray: mix(#000, $gray, 60%) !default;
+   │               ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_variables.scss 63:15  @import
+    minimal-mistakes.scss 5:9                                                          @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                      root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+64 │ $light-gray: mix(#fff, $gray, 50%) !default;
+   │              ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_variables.scss 64:14  @import
+    minimal-mistakes.scss 5:9                                                          @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                      root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+65 │ $lighter-gray: mix(#fff, $gray, 90%) !default;
+   │                ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_variables.scss 65:16  @import
+    minimal-mistakes.scss 5:9                                                          @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                      root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+71 │ $muted-text-color: mix(#fff, $text-color, 20%) !default;
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_variables.scss 71:20  @import
+    minimal-mistakes.scss 5:9                                                          @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                      root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(9, 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+31 │ $mfp-iframe-ratio:                    9/16;                       // Ratio of iframe (9/16 = widescreen, 3/4 = standard, etc.)
+   │                                       ^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/magnific-popup/_settings.scss 31:39      @import
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/magnific-popup/_magnific-popup.scss 3:9  @import
+    minimal-mistakes.scss 10:9                                                                                  @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                                               root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($value, 16px) or calc($value / 16px)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+28 │     @return $value / 16px * 1em;
+   │             ^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss 28:13                base-conversion()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss 20:13                breakpoint-to-base-em()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/parsers/single/_default.scss 8:29  breakpoint-parse-default()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/parsers/_single.scss 22:14         breakpoint-parse-single()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_parsers.scss 153:18               breakpoint-parse()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_parsers.scss 48:22                breakpoint()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss 46:16             breakpoint()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 13:3                                     @import
+    minimal-mistakes.scss 15:9                                                                                       @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                                                    root stylesheet
+DEPRECATION WARNING [mixed-decls]: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss
+25 │     -webkit-text-size-adjust: 100%;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+   ╵
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss
+65 │ ┌     @media #{$query-string} {
+66 │ │       @content;
+67 │ │     }
+   │ └─── nested rule
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 25:3  @import
+    minimal-mistakes.scss 15:9                                                    @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                 root stylesheet
+DEPRECATION WARNING [mixed-decls]: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss
+25 │     -webkit-text-size-adjust: 100%;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+   ╵
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss
+65 │ ┌     @media #{$query-string} {
+66 │ │       @content;
+67 │ │     }
+   │ └─── nested rule
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 25:3  @import
+    minimal-mistakes.scss 15:9                                                    @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                 root stylesheet
+DEPRECATION WARNING [mixed-decls]: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss
+25 │     -webkit-text-size-adjust: 100%;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+   ╵
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss
+65 │ ┌     @media #{$query-string} {
+66 │ │       @content;
+67 │ │     }
+   │ └─── nested rule
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 25:3  @import
+    minimal-mistakes.scss 15:9                                                    @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                 root stylesheet
+DEPRECATION WARNING [mixed-decls]: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss
+26 │     -ms-text-size-adjust: 100%;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+   ╵
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss
+65 │ ┌     @media #{$query-string} {
+66 │ │       @content;
+67 │ │     }
+   │ └─── nested rule
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 26:3  @import
+    minimal-mistakes.scss 15:9                                                    @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                 root stylesheet
+DEPRECATION WARNING [mixed-decls]: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss
+26 │     -ms-text-size-adjust: 100%;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+   ╵
+   ┌──> /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss
+65 │ ┌     @media #{$query-string} {
+66 │ │       @content;
+67 │ │     }
+   │ └─── nested rule
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_reset.scss 26:3  @import
+    minimal-mistakes.scss 15:9                                                    @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                 root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(5px, 2) or calc(5px / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+28 │     margin-bottom: (5px / 2);
+   │                     ^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_forms.scss 28:21  @import
+    minimal-mistakes.scss 17:9                                                     @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                  root stylesheet
+DEPRECATION WARNING [color-functions]: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+64 │   $red: red($color);
+   │         ^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 64:9   yiq-is-light()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 81:14  yiq-contrast-color()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 91:10  yiq-contrasted()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_buttons.scss 47:7  @import
+    minimal-mistakes.scss 22:9                                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                   root stylesheet
+DEPRECATION WARNING [color-functions]: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+65 │   $green: green($color);
+   │           ^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 65:11  yiq-is-light()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 81:14  yiq-contrast-color()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 91:10  yiq-contrasted()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_buttons.scss 47:7  @import
+    minimal-mistakes.scss 22:9                                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                   root stylesheet
+DEPRECATION WARNING [color-functions]: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+66 │   $blue: blue($color);
+   │          ^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 66:10  yiq-is-light()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 81:14  yiq-contrast-color()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 91:10  yiq-contrasted()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_buttons.scss 47:7  @import
+    minimal-mistakes.scss 22:9                                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                   root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(($red * 299) + ($green * 587) + ($blue * 114), 1000) or calc((($red * 299) + ($green * 587) + ($blue * 114)) / 1000)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+68 │   $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 68:9   yiq-is-light()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 81:14  yiq-contrast-color()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_mixins.scss 91:10  yiq-contrasted()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_buttons.scss 47:7  @import
+    minimal-mistakes.scss 22:9                                                      @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                   root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($span-width, $container) or calc($span-width / $container)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+93 │     @return percentage($span-width / $container);
+   │                        ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/susy/susy/_su-math.scss 93:24          su-span()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/susy/susy/_syntax-helpers.scss 190:11  su-call()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/susy/susy/_api.scss 146:13             susy-span()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/susy/susy/_unprefix.scss 19:11         span()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_utilities.scss 172:29                        @content
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss 66:7       breakpoint()
+    /Users/christophermoorad/mostlyrocks/_sass/minimal-mistakes/_utilities.scss 171:3                         @import
+    minimal-mistakes.scss 31:9                                                                                @import
+    /Users/christophermoorad/mostlyrocks/assets/css/main.scss 4:9                                             root stylesheet
+WARNING: 216 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+Post-Convert Hooks: assets/css/main.scss
+         Rendering: feed.xml
+  Pre-Render Hooks: feed.xml
+  Rendering Liquid: feed.xml
+  Rendering Markup: feed.xml
+Post-Convert Hooks: feed.xml
+  Rendering Layout: feed.xml
+         Rendering: sitemap.xml
+  Pre-Render Hooks: sitemap.xml
+  Rendering Liquid: sitemap.xml
+  Rendering Markup: sitemap.xml
+Post-Convert Hooks: sitemap.xml
+  Rendering Layout: sitemap.xml
+         Rendering: robots.txt
+  Pre-Render Hooks: robots.txt
+  Rendering Liquid: robots.txt
+  Rendering Markup: robots.txt
+Post-Convert Hooks: robots.txt
+  Rendering Layout: robots.txt
+         Rendering: assets/css/main.css.map
+  Pre-Render Hooks: assets/css/main.css.map
+  Rendering Markup: assets/css/main.css.map
+Post-Convert Hooks: assets/css/main.css.map
+           Writing: /Users/christophermoorad/mostlyrocks/_site/404.html
+           Writing: /Users/christophermoorad/mostlyrocks/_site/about/index.html
+           Writing: /Users/christophermoorad/mostlyrocks/_site/index.html
+           Writing: /Users/christophermoorad/mostlyrocks/_site/assets/js/lunr/lunr-en.js
+           Writing: /Users/christophermoorad/mostlyrocks/_site/assets/js/lunr/lunr-gr.js
+           Writing: /Users/christophermoorad/mostlyrocks/_site/assets/js/lunr/lunr-store.js
+           Writing: /Users/christophermoorad/mostlyrocks/_site/assets/css/main.css
+           Writing: /Users/christophermoorad/mostlyrocks/_site/feed.xml
+           Writing: /Users/christophermoorad/mostlyrocks/_site/sitemap.xml
+           Writing: /Users/christophermoorad/mostlyrocks/_site/robots.txt
+           Writing: /Users/christophermoorad/mostlyrocks/_site/assets/css/main.css.map
+           Writing: /Users/christophermoorad/mostlyrocks/_site/jekyll/update/2025/02/23/welcome-to-jekyll.html
+                    done in 0.518 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
