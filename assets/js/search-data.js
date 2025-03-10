@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-wind-river-range-2023",
+      
+        title: "Wind River Range 2023",
+      
+      description: "10 day trip into the Winds",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/winds-trip/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
