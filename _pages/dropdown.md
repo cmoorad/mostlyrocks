@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Other
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: Gardening
+    permalink: /blog/
   - title: divider
-  - title: blog
+  - title: Recipes
     permalink: /blog/
 ---

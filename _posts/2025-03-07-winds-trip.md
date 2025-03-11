@@ -5,12 +5,9 @@ date: 2025-03-07 01:59:00
 description: 10 day trip into the Winds
 tags: formatting images
 categories: sample-posts
-thumbnail: assets/img/9.jpg
+thumbnail: assets/img/winds/IMG_8161.png
 images:
-  lightbox2: true
-  photoswipe: true
   spotlight: true
-  venobox: true
 ---
 
 Pictures from our trip into the wind river range.

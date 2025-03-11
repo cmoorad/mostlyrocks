@@ -14,9 +14,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: rock-climbing,leavenworth,castle-rock,index # add your own keywords or leave empty
+keywords: rock-climbing,leavenworth,castle-rock,index,chris-moorad,christopher-moorad # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🪨 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mostlyrocks.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -49,7 +49,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -172,6 +172,7 @@ kramdown:
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
+
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -192,6 +193,14 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/projects.md
+
+
 keep_files:
   - CNAME
   - .nojekyll

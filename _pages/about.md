@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Christopher S. Moorad | Leavenworth, WA | Just some guy...
 
