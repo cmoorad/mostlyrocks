@@ -1,6 +1,13 @@
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+    
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        {{- site.title -}}
+      </a>
+
+    {% comment %}
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -24,6 +31,8 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      {% endcomment %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -47,6 +56,8 @@
           {% endfor %}
 
           <!-- About -->
+          {% comment %}
+          I commented out the about section from the nav logic, so now it's just a normal page instead of defaulting to position 1
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
@@ -54,7 +65,8 @@
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+          </li>     
+          {% endcomment %}     
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}

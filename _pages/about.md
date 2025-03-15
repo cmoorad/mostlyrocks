@@ -1,7 +1,9 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: /about
+nav: true
+nav_order: 1
 subtitle: Christopher S. Moorad | Leavenworth, WA | Just some guy...
 
 profile:
@@ -18,10 +20,13 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+
+#latest_posts:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#  limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi my name is Chris — welcome to my website. I'm just getting started here, thanks for visiting!
+I'm originally from La Jolla, CA and now reside in Leavenworth, WA. I grew up playing waterpolo and surfing, and now I spend as much time as possible rock climbing and skiing.
+
+I started this blog to document pictures from my climbing + skiing trips.

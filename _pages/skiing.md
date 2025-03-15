@@ -1,34 +1,41 @@
 ---
 layout: default
-permalink: /blog/
-title: Rock Climbing
+permalink: /skiing/
+title: Skiing
 nav: true
-nav_order: 2
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+nav_order: 3
+#pagination:
+ # enabled: true
+  #collection: posts
+  #permalink: /page/:num/
+  #per_page: 5
+  #sort_field: date
+  #sort_reverse: true
+  #trail:
+  #  before: 1 # The number of links before the current page
+  #  after: 3 # The number of links after the current page
 ---
 
 <div class="post">
 
-{% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
+<!---
+ I'm trying commenting the logic out so I can override the blog name information in the h1
 
-{% if blog_name_size > 0 or blog_description_size > 0 %}
+# {% assign blog_name_size = site.blog_name | size %}
+# {% assign blog_description_size = site.blog_description | size %}
 
-  <div class="header-bar">
-    <h1>{{ "Rock Climbing" }}</h1>
-    <h2>{{ "A collection of rock climbing trips and photos." }}</h2>
-  </div>
-  {% endif %}
+# {% if blog_name_size > 0 or blog_description_size > 0 %}
+-->
 
+<div class="header-bar">
+  <h1>Skiing</h1>
+  <h2>A collection of skiing trips and photos.</h2>
+</div>
+
+<!--- # {% endif %} -->
+
+
+<!---
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
@@ -54,7 +61,9 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+
+{% endif %}
+-->
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
