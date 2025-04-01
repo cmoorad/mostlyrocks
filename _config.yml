@@ -87,10 +87,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Mostly Rocks # blog_name will be displayed in your blog page
-blog_description: A blog about rock climbing, gardening, baking, and other hobbies.
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+#blog_name: Mostly Rocks # blog_name will be displayed in your blog page
+#blog_description: A blog about rock climbing, gardening, baking, and other hobbies.
+#permalink: /blog/:year/:title/
+#lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -139,19 +139,6 @@ newsletter:
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-
-collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
-  projects:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -199,6 +186,20 @@ exclude:
   - _pages/teaching.md
   - _pages/profiles.md
   - _pages/projects.md
+  - _posts/2015-03-15-formatting-and-links.md
+  - _posts/2015-05-15-images.md
+  - _posts/2022-02-01-redirect.md
+  - _posts/2023-03-20-table-of-contents.md
+  - _posts/2023-03-21-tables.md
+  - _posts/2023-04-24-videos.md
+  - _posts/2023-04-25-audios.md
+  - _posts/2023-04-25-sidebar-table-of-contents.md
+  - _posts/2023-05-12-custom-blockquotes.md
+  - _posts/2024-01-26-geojson-map.md
+  - _posts/2024-01-27-advanced-images.md
+  - _posts/2024-05-01-tabs.md
+  - _posts/2024-12-04-photo-gallery.md
+  - _pages/blog.md
 
 
 keep_files:
@@ -255,18 +256,18 @@ terser:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+#jekyll-archives:
+#  posts:
+#    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+#    permalinks:
+#      year: "/blog/:year/"
+#      tags: "/blog/:type/:name/"
+#      categories: "/blog/:type/:name/"
+#  books:
+#    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+#display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+#display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

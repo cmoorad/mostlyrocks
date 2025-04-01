@@ -3,20 +3,16 @@ layout: post
 title: Wind River Range 2023
 date: 2025-03-07 01:59:00
 description: 10 day trip into the Winds
-tags: formatting images
-categories: sample-posts
 thumbnail: assets/img/winds/IMG_8161.png
 images:
   spotlight: true
 ---
 
+---
+
 Pictures from our trip into the wind river range.
 
 ---
-
-## Winds Trip 2023
-
-Hi it's me Chris here are some trip pics!
 
 <!-- Group 1 -->
 <div class="spotlight-group">
