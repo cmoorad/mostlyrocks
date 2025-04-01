@@ -495,8 +495,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 0.9rem;
 
   .container {
@@ -585,14 +585,14 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   padding: 0;
 
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     .post-meta {
       color: var(--global-text-color-light);
@@ -1416,4 +1416,88 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+/* stuff i've added is below -CM */
+
+/* hover hyperlinking for post list */
+.post-link-wrapper {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover .post-title {
+    color: var(--global-hover-color);
+  }
+}
+
+/* image behind title */
+.climbing-header {
+  background-image: url('/assets/img/winds/IMG_8211.png'); // update path as needed
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+
+  h1, h2 {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4); // optional for readability
+  }
+}
+
+.skiing-header {
+  background-image: url('/assets/img/winds/IMG_8161.png'); // update path as needed
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+
+  h1, h2 {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4); // optional for readability
+  }
+}
+
+.header-bar::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3); // adjust opacity as needed
+  z-index: 0;
+}
+
+.header-bar {
+  position: relative;
+  z-index: 1;
+
+  h1, h2 {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* making margins for spotlight groups */
+.spotlight-group img {
+  margin: 10px;
+}
+
+/* centering text to spotlight caption */
+html body .spl-title {
+  text-align: center; /* Centers the caption text horizontally */
+  font-size: 16px; /* Adjusts the font size */
+  color: #fff; /* Sets the text color (e.g., white for dark backgrounds) */
+  font-weight: normal !important;/* Removes bold styling */
+  align-items: center;
+}
+
+#spotlight:not(.show.menu) .spl-title {
+  display: none; /* Hides the caption when the #spotlight class is not "show" */
+}
+
+#spotlight:not(.show.menu) .spl-footer {
+  display: none; /* Hides the caption when the #spotlight class is not "show" */
 }

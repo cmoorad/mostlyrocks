@@ -27,6 +27,6 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m originally from La Jolla, CA and now reside in Leavenworth, WA. I grew up playing waterpolo and surfing, and now I spend a lot of my time rock climbing and skiing.
+I’m originally from La Jolla, CA and now reside in Leavenworth, WA. I grew up playing in pools and the ocean, and now I spend a lot of my time playing in the mountains.
 
-I created this website to document pictures from my climbing + skiing trips.
+I created this website to document pictures and learnings from my climbing + skiing trips.

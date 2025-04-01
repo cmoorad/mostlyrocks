@@ -19,7 +19,7 @@ folder: skiing
 
 <div class="post">
 
-<div class="header-bar">
+<div class="header-bar skiing-header">
   <h1>Skiing</h1>
   <h2>A collection of skiing trips and photos.</h2>
 </div>
@@ -27,6 +27,13 @@ folder: skiing
   <ul class="post-list">
 
   {% assign postlist = site.posts | where_exp: "post", "post.relative_path contains '/skiing/'" %}
+
+{% for post in site.categories.skiing %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
+
 
   {% for post in postlist %}
     <li>
@@ -40,11 +47,8 @@ folder: skiing
     </li>
   {% endfor %}
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+    {% assign postlist = site.categories.skiing %}
+
 
     {% for post in postlist %}
 

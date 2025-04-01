@@ -6,7 +6,7 @@ nav_order: 8
 dropdown: true
 children:
   - title: Gardening
-    permalink: /garden/
+    permalink: /gardening/
   - title: divider
   - title: Recipes
     permalink: /recipes/
