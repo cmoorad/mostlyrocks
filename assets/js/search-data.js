@@ -35,7 +35,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/garden/";
+                window.location.href = "/gardening/";
               },
             },{id: "dropdown-recipes",
               title: "Recipes",
@@ -52,7 +52,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/2025/03/07/winds-trip.html";
+          window.location.href = "/climbing/2025/03/07/winds-trip.html";
         
       },
     },{
@@ -60,7 +60,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%63%6D%6F%6F%72%61%64@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-inspire',
