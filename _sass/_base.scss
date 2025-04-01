@@ -1470,6 +1470,8 @@ figure.cover {
   z-index: 0;
 }
 
+/*makes header position relative so that the title is on top of the background image
+AND makes h1 normal font weight*/
 .header-bar {
   position: relative;
   z-index: 1;
@@ -1478,6 +1480,11 @@ figure.cover {
     position: relative;
     z-index: 2;
   }
+
+  h1 {
+    font-weight: normal;
+  }
+
 }
 
 /* making margins for spotlight groups */
@@ -1485,7 +1492,7 @@ figure.cover {
   margin: 10px;
 }
 
-/* centering text to spotlight caption */
+/* centering text in spotlight caption */
 html body .spl-title {
   text-align: center; /* Centers the caption text horizontally */
   font-size: 16px; /* Adjusts the font size */
@@ -1500,4 +1507,36 @@ html body .spl-title {
 
 #spotlight:not(.show.menu) .spl-footer {
   display: none; /* Hides the caption when the #spotlight class is not "show" */
+}
+
+
+
+
+/* making rows in post lists have centered, bolded text */
+.row {
+  display: flex;
+  align-items: center;
+
+  .col-sm-3 {
+    display: flex;
+    justify-content: center; /* Centers the thumbnail horizontally */
+    align-items: center; /* Centers the thumbnail vertically */
+  }
+
+  .col-sm-9 {
+    margin-bottom: 20px; /* Adds a slight margin to the text */
+    font-weight: normal;
+    h2 {
+      font-weight: normal; /* Makes the post title bold */
+    }
+  }
+
+}
+
+
+/* making post titles bold within posts */
+.post-header {
+  .post-title {
+    font-weight: bold;
+  }
 }

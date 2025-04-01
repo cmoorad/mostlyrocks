@@ -38,7 +38,7 @@ nav_order: 2
   <a href="{{ post.url | relative_url }}" class="post-link-wrapper">
     <div class="row">
       <div class="col-sm-9">
-        <h3 class="post-title">{{ post.title }}</h3>
+        <h2 class="post-title">{{ post.title }}</h2>
         <p>{{ post.description }}</p>
         <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
       </div>
