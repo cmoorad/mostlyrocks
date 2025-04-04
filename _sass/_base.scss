@@ -192,8 +192,20 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.profile-container{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.text-content {
+  flex: 1;
+}
+
 .profile {
-  width: 100%;
+  flex: 0 0 auto;
+  max-width: 600px;
+  height: auto;
 
   .more-info {
     margin-bottom: 5px;
@@ -205,6 +217,12 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+}
+
+.profile img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .profile.float-right {
@@ -1538,5 +1556,39 @@ html body .spl-title {
 .post-header {
   .post-title {
     font-weight: bold;
+  }
+}
+
+
+/* home page imports from https://github.com/volny/creative-theme-jekyll/blob/master/ */
+
+@import "mixins";
+
+home-header {
+  background-image: url('/assets/img/winds/IMG_8211.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
   }
 }

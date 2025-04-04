@@ -4,7 +4,7 @@ title: About
 permalink: /about
 nav: true
 nav_order: 1
-subtitle: Christopher S. Moorad | Leavenworth, WA | Just some guy...
+subtitle: Christopher S. Moorad | Leavenworth, WA
 
 profile:
   align: left
@@ -27,6 +27,15 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m originally from La Jolla, CA and now reside in Leavenworth, WA. I grew up playing in pools and the ocean, and now I spend a lot of my time playing in the mountains.
+I’m originally from La Jolla, CA and now reside in Leavenworth, WA. I created this website to document pictures and learnings from climbing + skiing trips.
 
-I created this website to document pictures and learnings from my climbing + skiing trips.
+### Climbing
+Some friends took me rock climbing for the first time in 2017. I fell in love with climbing a few years later at Index, WA.
+
+
+### Skiing
+I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
+
+### Website
+The website was built using various free Jekyll templates which are licensed on my GitHub account.
+
