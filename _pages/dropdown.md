@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: Recipes
     permalink: /recipes/
+  - title: divider
+  - title: Humans
+    permalink: /cast/
 ---
