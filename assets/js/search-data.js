@@ -44,6 +44,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
+            },{id: "dropdown-humans",
+              title: "Humans",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/cast/";
+              },
             },{id: "post-wind-river-range-2023",
       
         title: "Wind River Range 2023",
