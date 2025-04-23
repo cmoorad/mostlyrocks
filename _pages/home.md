@@ -12,12 +12,9 @@ nav: false
       <br>
       <hr>
       <br>
+      <br>
       <h3>Pictures featuring a variety of subjects</h3>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h3>...but mostly rocks.</h3>
+      <h3>...mostly rocks.</h3>
     </div>
   </div>
 </div>

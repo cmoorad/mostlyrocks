@@ -27,15 +27,14 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m originally from La Jolla, CA and now reside in Leavenworth, WA. I created this website to document pictures and learnings from climbing + skiing trips.
+Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing + skiing trips.
 
 ### Climbing
 Some friends took me rock climbing for the first time in 2017. I fell in love with climbing a few years later at Index, WA.
-
 
 ### Skiing
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
 
 ### Website
-The website was built using various free Jekyll templates which are licensed on my GitHub account.
+I built this website using various free Jekyll templates which are licensed on my GitHub account, @cmoorad.
 
