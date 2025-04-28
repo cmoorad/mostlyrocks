@@ -38,8 +38,26 @@ layout: default
           {% endif %}
         </div>
         <div class="clearfix">{{ content }}</div>
+    <!-- Close profile-container and reopen it for photos section -->
       </div>
-    {% endif %}
+      <div class="profile-container" style="margin-top: 0rem;">
+        {% if page.photo_gallery %}
+        <div class="photos-section">
+          <h2 class="collapsible-heading" data-toggle="collapse" data-target="#photoGallery" aria-expanded="false" aria-controls="photoGallery">
+            Photos of Me
+          </h2>
+          <div class="collapse" id="photoGallery">
+            <div class="spotlight-group">
+              {% for image in page.photo_gallery %}
+                <a class="spotlight" href="{{ image.url }}">
+                  <img src="{{ image.url }}" alt="{{ image.alt }}" />
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

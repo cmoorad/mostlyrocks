@@ -1,10 +1,10 @@
 ---
 layout: default
-permalink: /skiing/
-title: Skiing
-nav: true
+permalink: /snowboarding/
+title: Snowboarding
+nav: false
 nav_order: 3
-folder: skiing
+folder: snowboarding
 #pagination:
  # enabled: true
   #collection: posts
@@ -19,16 +19,16 @@ folder: skiing
 
 <div class="post">
 
-<div class="header-bar skiing-header">
-  <h1>Skiing</h1>
-  <h2>A collection of skiing trips and photos.</h2>
+<div class="header-bar snowboarding-header">
+  <h1>Snowboarding</h1>
+  <h2>A collection of snowboarding trips and photos.</h2>
 </div>
 
   <ul class="post-list">
 
-  {% assign postlist = site.posts | where_exp: "post", "post.relative_path contains '/skiing/'" %}
+  {% assign postlist = site.posts | where_exp: "post", "post.relative_path contains '/snowboarding/'" %}
 
-{% for post in site.categories.skiing %}
+{% for post in site.categories.snowboarding %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p>{{ post.date | date: "%B %d, %Y" }}</p>
   <p>{{ post.excerpt }}</p>
@@ -47,7 +47,7 @@ folder: skiing
     </li>
   {% endfor %}
 
-    {% assign postlist = site.categories.skiing %}
+    {% assign postlist = site.categories.snowboarding %}
 
 
     {% for post in postlist %}

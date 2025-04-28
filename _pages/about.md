@@ -9,30 +9,25 @@ subtitle: Christopher S. Moorad | Leavenworth, WA
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  #more_info: >
-
-#selected_papers: false # includes a list of papers marked as "selected={true}"
-#social: false # includes social icons at the bottom of the page
-
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  image_circular: false
 
 
-#latest_posts:
-#  enabled: true
-#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#  limit: 3 # leave blank to include all the blog posts
+# Photo gallery images
+photo_gallery:
+  - url: /assets/img/winds/IMG_8211.png
+    alt: Wind River Range
+  - url: /assets/img/winds/IMG_8161.png
+    alt: Wind River Range
+  - url: /assets/img/winds/IMG_8250.png
+    alt: Wind River Range
 ---
 
-Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing + skiing trips.
+Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing + snowboarding trips.
 
 ### Climbing
 Some friends took me rock climbing for the first time in 2017. I fell in love with climbing a few years later at Index, WA.
 
-### Skiing
+### Snowboarding
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
 
 ### Website

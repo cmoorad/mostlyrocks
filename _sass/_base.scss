@@ -192,10 +192,33 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.profile-container{
+.profile-container {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  
+  // Make the layout stack on mobile screens
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    
+    .profile {
+      width: 100%; // Full width on mobile
+      max-width: 400px; // Limit maximum width
+      margin-bottom: 1rem; // Add space between image and text
+      
+      // Remove float margins since we're stacking
+      &.float-right, &.float-left {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    
+    .text-content {
+      width: 100%;
+      text-align: center; // Optional: center the text on mobile
+    }
+  }
 }
 
 .text-content {
@@ -1287,7 +1310,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .newsletter-error {
-  color: var(--global-theme-color);
+  color: var (--global-theme-color);
   display: none;
   align-items: center;
   width: 100%;
@@ -1451,7 +1474,7 @@ figure.cover {
 
 /* image behind title */
 .climbing-header {
-  background-image: url('/assets/img/winds/IMG_8161.png'); // update path as needed
+  background-image: url(https://images.mostlyrocks.com/winds-2023/1.jpeg); // update path as needed
   background-size: cover;
   background-position: center 80%; /*center 50%;*/
   background-repeat: no-repeat;
@@ -1466,7 +1489,7 @@ figure.cover {
   }
 }
 
-.skiing-header {
+.snowboarding-header {
   background-image: url(https://images.mostlyrocks.com/home/skiing.jpeg); // update path as needed
   background-size: cover;
   background-position: center;
@@ -1541,6 +1564,8 @@ html body .spl-title {
     display: flex;
     justify-content: center; /* Centers the thumbnail horizontally */
     align-items: center; /* Centers the thumbnail vertically */
+    height: 150px;
+    overflow: hidden;
   }
 
   .col-sm-9 {
@@ -1570,16 +1595,17 @@ body.home-page .container.mt-5 {
 }
 
 .home-hero-section {
-  position: relative; /* Required for the pseudo-element */
-  background-image: url('/assets/img/winds/IMG_8211.png');
-  background-size: contain; /* Ensures the image fills the container */
-  background-position: top center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed;
-  padding: 4rem 0; /* Adjust padding as needed */
+  position: relative;
+  background-image: url(https://images.mostlyrocks.com/winds-2023/3.jpeg);
+  background-size: cover; /* Change from contain to cover */
+  background-position: center; /* Center both horizontally and vertically */
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Change from fixed to scroll for mobile compatibility */
   color: white;
-  height: 700px; /* Set a custom height */
-  margin: 0 auto; /* Center the section horizontally */
+  min-height: 100vh; /* Use viewport height instead of auto */
+  width: 100%;
+  padding: 2rem 0; /* Reduce padding on mobile */
+  margin: 0 auto;
 
   /* Add the overlay */
   &::before {
@@ -1589,18 +1615,21 @@ body.home-page .container.mt-5 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-    z-index: 1; /* Ensure it sits below the content */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
   }
 
-  display: flex; /* Enables Flexbox */
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .header-content {
-    position: relative; /* Ensure content is above the overlay */
-    z-index: 2; /* Place content above the overlay */
+    position: relative;
+    z-index: 2;
     text-align: center;
+    padding: 1rem; /* Add some padding around content */
+    width: 100%; /* Ensure content takes full width on mobile */
+    max-width: 90%; /* Limit width on mobile */
   }
 
   .header-content-inner {
@@ -1609,9 +1638,19 @@ body.home-page .container.mt-5 {
 
     h1, h2, h3 {
       color: white;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.4); // optional for readability
+      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
     }
-
+  }
+  
+  /* Add responsive adjustments */
+  @media (max-width: 768px) {
+    min-height: 70vh; /* Slightly smaller on mobile */
+    background-size: cover;
+    background-position: center;
+    
+    h1 {
+      font-size: 3rem !important; /* Smaller font on mobile */
+    }
   }
 }
 
@@ -1701,5 +1740,62 @@ body.home-page .container.mt-5 {
 
   &:hover .overlay-text {
     opacity: 1;
+  }
+}
+
+// Photo gallery section for About page
+
+.photos-section {
+  width: 100%;
+  clear: both;
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+  
+  .collapsible-heading {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+    &::after {
+      content: "▼";
+      display: inline-block;
+      margin-left: 0.5rem;
+      transition: transform 0.3s ease;
+      font-size: 0.8rem;
+    }
+    
+    &[aria-expanded="true"]::after {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .spotlight-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    a.spotlight {
+      flex: 0 0 calc(33.333% - 10px);
+      margin: 0;
+      
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin: 0;
+      }
+      
+      @media (max-width: 768px) {
+        flex: 0 0 calc(50% - 7.5px);
+      }
+      
+      @media (max-width: 576px) {
+        flex: 0 0 100%;
+      }
+    }
   }
 }

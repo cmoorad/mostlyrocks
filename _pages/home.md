@@ -22,23 +22,11 @@ nav: false
 <div class="photo-grid">
   <a href="/rock-climbing" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/climbing.jpeg" alt="Climbing">
-    <div class="overlay-text">Climbing</div>
+    <div class="overlay-text">Rock Climbing</div>
   </a>
-  <a href="/skiing" class="grid-item">
-    <img src="https://images.mostlyrocks.com/home/skiing.jpeg" alt="Skiing">
-    <div class="overlay-text">Skiing</div>
-  </a>
-  <a href="/gardening" class="grid-item">
-    <img src="https://images.mostlyrocks.com/home/gardening.jpeg" alt="Gardening">
-    <div class="overlay-text">Gardening</div>
-  </a>
-  <a href="/recipes" class="grid-item">
-    <img src="https://images.mostlyrocks.com/home/recipes.jpeg" alt="Recipes">
-    <div class="overlay-text">Recipes</div>
-  </a>
-  <a href="/seasons" class="grid-item">
-    <img src="https://images.mostlyrocks.com/home/seasons.jpeg" alt="Seasons">
-    <div class="overlay-text">Seasons</div>
+  <a href="/snowboarding" class="grid-item">
+    <img src="https://images.mostlyrocks.com/home/skiing.jpeg" alt="Snowboarding">
+    <div class="overlay-text">Snowboarding</div>
   </a>
   <a href="/about" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/about.jpeg" alt="About">
