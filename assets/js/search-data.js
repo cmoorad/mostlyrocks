@@ -51,15 +51,26 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/cast/";
               },
-            },{id: "post-wind-river-range-2023",
+            },{id: "post-the-incredible-hulk-2024",
       
-        title: "Wind River Range 2023",
+        title: "The Incredible Hulk 2024",
       
-      description: "10 day trip into the Winds",
+      description: "7 days of climbing at the Hulk, CA",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/climbing/2025/03/07/winds-trip.html";
+          window.location.href = "/climbing/2024/09/10/hulk-trip.html";
+        
+      },
+    },{id: "post-wind-river-range-2023",
+      
+        title: "Wind River Range 2023",
+      
+      description: "10 days of climbing in the Winds, WY",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2023/09/07/winds-trip.html";
         
       },
     },{
