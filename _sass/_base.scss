@@ -1467,10 +1467,11 @@ figure.cover {
 }
 
 .skiing-header {
-  background-image: url('/assets/img/winds/IMG_8161.png'); // update path as needed
+  background-image: url(https://images.mostlyrocks.com/home/skiing.jpeg); // update path as needed
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 4rem 2rem;
   text-align: center;
   color: white;
@@ -1675,6 +1676,7 @@ body.home-page .container.mt-5 {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  aspect-ratio: 1 / 1;
 
   img {
     display: block;

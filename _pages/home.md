@@ -20,28 +20,28 @@ nav: false
 </div>
 
 <div class="photo-grid">
-  <a href="/climbing" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="Climbing">
+  <a href="/rock-climbing" class="grid-item">
+    <img src="https://images.mostlyrocks.com/home/climbing.jpeg" alt="Climbing">
     <div class="overlay-text">Climbing</div>
   </a>
   <a href="/skiing" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="Skiing">
+    <img src="https://images.mostlyrocks.com/home/skiing.jpeg" alt="Skiing">
     <div class="overlay-text">Skiing</div>
   </a>
   <a href="/gardening" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="Gardening">
+    <img src="https://images.mostlyrocks.com/home/gardening.jpeg" alt="Gardening">
     <div class="overlay-text">Gardening</div>
   </a>
   <a href="/recipes" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="Recipes">
+    <img src="https://images.mostlyrocks.com/home/recipes.jpeg" alt="Recipes">
     <div class="overlay-text">Recipes</div>
   </a>
-  <a href="/humans" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="Humans">
-    <div class="overlay-text">Humans</div>
+  <a href="/seasons" class="grid-item">
+    <img src="https://images.mostlyrocks.com/home/seasons.jpeg" alt="Seasons">
+    <div class="overlay-text">Seasons</div>
   </a>
   <a href="/about" class="grid-item">
-    <img src="/assets/img/winds/IMG_8211.png" alt="About">
+    <img src="https://images.mostlyrocks.com/home/about.jpeg" alt="About">
     <div class="overlay-text">About</div>
   </a>
   <!-- Add more grid items as needed -->

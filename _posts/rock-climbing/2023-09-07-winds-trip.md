@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Wind River Range 2023
-date: 2025-03-07 01:59:00
-description: 10 day trip into the Winds
+date: 2023-09-07 01:59:00
+description: 10 days of climbing in the Winds, WY
 thumbnail: assets/img/winds/IMG_8161.png
 categories: climbing
 images:
