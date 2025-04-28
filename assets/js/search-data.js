@@ -23,33 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/rock-climbing/";
           },
-        },{id: "nav-skiing",
-          title: "Skiing",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/skiing/";
-          },
-        },{id: "dropdown-gardening",
-              title: "Gardening",
+        },{id: "dropdown-snowboarding",
+              title: "Snowboarding",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/gardening/";
-              },
-            },{id: "dropdown-recipes",
-              title: "Recipes",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/recipes/";
-              },
-            },{id: "dropdown-humans",
-              title: "Humans",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/cast/";
+                window.location.href = "/snowboarding/";
               },
             },{id: "post-the-incredible-hulk-2024",
       
