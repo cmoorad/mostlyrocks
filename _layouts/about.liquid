@@ -19,7 +19,7 @@ layout: default
       <div class="profile-container">
         <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% assign profile_image_path = page.profile.image %}
             {% if page.profile.image_circular %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
             {% else %}
@@ -29,8 +29,7 @@ layout: default
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
         30vw, 95vw"{% endcapture %}
             {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-              cache_bust=true
+              include figure.liquid loading="eager" url=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             %}
           {% endif %}
           {% if page.profile.more_info %}
@@ -44,12 +43,12 @@ layout: default
         {% if page.photo_gallery %}
         <div class="photos-section">
           <h2 class="collapsible-heading" data-toggle="collapse" data-target="#photoGallery" aria-expanded="false" aria-controls="photoGallery">
-            Photos of Me
+            In pictures...
           </h2>
           <div class="collapse" id="photoGallery">
-            <div class="spotlight-group">
+            <div class="spotlight-group" data-gallery="true" data-autohide="false" data-infinite="true">
               {% for image in page.photo_gallery %}
-                <a class="spotlight" href="{{ image.url }}">
+                <a class="spotlight" href="{{ image.url }}" data-align="{{ image.align | default: 'center' }}" data-title="{{ image.alt }}">
                   <img src="{{ image.url }}" alt="{{ image.alt }}" />
                 </a>
               {% endfor %}
@@ -96,4 +95,13 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+
+
+  <script
+  defer
+  src="{{ site.third_party_libraries.spotlight.url.js }}"
+  crossorigin="anonymous"
+></script>
+
+
 </div>

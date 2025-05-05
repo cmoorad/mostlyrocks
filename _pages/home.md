@@ -13,8 +13,7 @@ nav: false
       <hr>
       <br>
       <br>
-      <h3>Pictures featuring a variety of subjects</h3>
-      <h3>...mostly rocks.</h3>
+      <h3>Pictures, recipes, minimal commentary.</h3>
     </div>
   </div>
 </div>
@@ -22,7 +21,7 @@ nav: false
 <div class="photo-grid">
   <a href="/rock-climbing" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/climbing.jpeg" alt="Climbing">
-    <div class="overlay-text">Rock Climbing</div>
+    <div class="overlay-text">Rock Climbing</div> 
   </a>
   <a href="/snowboarding" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/skiing.jpeg" alt="Snowboarding">
