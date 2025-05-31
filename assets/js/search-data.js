@@ -30,7 +30,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
-            },{id: "post-the-incredible-hulk-2024",
+            },{id: "post-yosemite-valley-2025",
+      
+        title: "Yosemite Valley 2025",
+      
+      description: "10 days of climbing in Yosemite, CA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/05/23/yosemite.html";
+        
+      },
+    },{id: "post-the-incredible-hulk-2024",
       
         title: "The Incredible Hulk 2024",
       
