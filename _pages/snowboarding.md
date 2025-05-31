@@ -18,11 +18,10 @@ folder: snowboarding
 ---
 
 <div class="post">
-
-<div class="header-bar snowboarding-header">
-  <h1>Snowboarding</h1>
-  <h2>A collection of snowboarding trips and photos.</h2>
-</div>
+  <div class="header-bar snowboarding-header">
+    <h1>Snowboarding</h1>
+    <h2>A collection of snowboarding trips and photos.</h2>
+  </div>
 
   <ul class="post-list">
 

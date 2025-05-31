@@ -3,7 +3,7 @@ layout: post
 title: Wind River Range 2023
 date: 2023-09-07 01:59:00
 description: 10 days of climbing in the Winds, WY
-thumbnail: https://images.mostlyrocks.com/winds-2023/5.jpeg
+thumbnail: https://images.mostlyrocks.com/winds-2023/3.jpeg
 categories: climbing
 images:
   spotlight: true
@@ -59,7 +59,7 @@ Pictures from our trip into the wind river range.
     <a class="spotlight" href="/assets/img/winds/Winds2023-JackTaylor-5.png">
         <img width=450 src="/assets/img/winds/Winds2023-JackTaylor-5.png" />
     </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_8467.png">
+    <a class="spotlight" href="/assets/img/winds/IMG_8467.png">
         <img width=800 src="/assets/img/winds/IMG_8467.png" />
     </a>
 </div>
