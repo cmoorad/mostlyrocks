@@ -18,49 +18,49 @@ Pictures from our trip into the wind river range.
 <!-- Group 1 -->
 <div class="spotlight-group">
 <div align=center>
-        <a class="spotlight" href="/assets/img/winds/IMG_8161.png">
-        <img width=400 src="/assets/img/winds/IMG_8161.png" />
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/1.jpeg">
+    <img width=1000 src="https://images.mostlyrocks.com/winds-2023/1.jpeg" />
     </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_8250.png">
-        <img width=400 src="/assets/img/winds/IMG_8250.png" />
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/10.jpeg">
+    <img width=600 src="https://images.mostlyrocks.com/winds-2023/10.jpeg" />
     </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_8286.png">
-        <img width=400 src="/assets/img/winds/IMG_8286.png" />
+    <div class="image-row">
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/9.jpeg">
+        <img width=440 src="https://images.mostlyrocks.com/winds-2023/9.jpeg" />
+        </a>
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/12.jpeg">
+        <img width=440 src="https://images.mostlyrocks.com/winds-2023/12.jpeg" />
+        </a>
+    </div>
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/5.jpeg">
+    <img width=600 src="https://images.mostlyrocks.com/winds-2023/5.jpeg" />
     </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_0777.png">
-        <img width=400 src="/assets/img/winds/IMG_0777.png" />
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/3.jpeg" data-title="Sunrise on the East Ridge of Wolf's Head">
+    <img width=1000 src="https://images.mostlyrocks.com/winds-2023/3.jpeg" />
     </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_8220.png">
-        <img width=600 src="/assets/img/winds/IMG_8220.png" />
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/6.jpeg" data-title="Jack on the summit of Wolf's Head.">
+    <img width=1000 src="https://images.mostlyrocks.com/winds-2023/6.jpeg" />
     </a>
-       <a class="spotlight" href="/assets/img/winds/IMG_8211.png" data-title="Sunrise on the East Ridge of Wolf's Head">
-        <img width=400 src="/assets/img/winds/IMG_8211.png" />
-    </a>
-    <a class="spotlight" href="/assets/img/winds/IMG_8237.png" data-title="Jack on the summit of Wolf's Head.">
-        <img width=800 src="/assets/img/winds/IMG_8237.png" />
+    <div class="image-row">
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/8.jpeg">
+        <img width=440 src="https://images.mostlyrocks.com/winds-2023/8.jpeg" />
+        </a>
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/11.jpeg">
+        <img width=440 src="https://images.mostlyrocks.com/winds-2023/11.jpeg" />
+        </a>
+    </div>
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/7.jpeg">
+    <img width=1000 src="https://images.mostlyrocks.com/winds-2023/7.jpeg" />
     </a>
     <br>
-    Jack on the summit of Wolf's Head.
-    <br>
-    <br>
-    <a class="spotlight" href="/assets/img/winds/IMG_8338.png">
-        <img width=400 src="/assets/img/winds/IMG_8338.png" />
-    </a>
-        <a class="spotlight" href="/assets/img/winds/IMG_0816.png">
-        <img width=400 src="/assets/img/winds/IMG_0816.png" />
-    </a>
-    <a class="spotlight" href="/assets/img/winds/IMG_8349.png">
-        <img width=400 src="/assets/img/winds/IMG_8349.png" />
-    </a>
-    <br>
-        <a class="spotlight" href="/assets/img/winds/IMG_0865.png">
-        <img width=220 src="/assets/img/winds/IMG_0865.png" />
-    </a>
-    <a class="spotlight" href="/assets/img/winds/Winds2023-JackTaylor-5.png">
-        <img width=450 src="/assets/img/winds/Winds2023-JackTaylor-5.png" />
-    </a>
-    <a class="spotlight" href="/assets/img/winds/IMG_8467.png">
-        <img width=800 src="/assets/img/winds/IMG_8467.png" />
-    </a>
-</div>
-
+    <div class="image-row">
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/15.jpeg">
+        <img width=320 src="https://images.mostlyrocks.com/winds-2023/15.jpeg" />
+        </a>
+        <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/2.jpeg">
+        <img width=560 src="https://images.mostlyrocks.com/winds-2023/2.jpeg" />
+        </a>
+    </div>
+    <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/14.jpeg">
+    <img width=1000 src="https://images.mostlyrocks.com/winds-2023/14.jpeg" />
+    </a>    <a class="spotlight" href="/assets/img/winds/IMG_0777.png">

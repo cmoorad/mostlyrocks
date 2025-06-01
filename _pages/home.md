@@ -13,7 +13,7 @@ nav: false
       <hr>
       <br>
       <br>
-      <h3>Pictures, recipes, minimal commentary.</h3>
+      <h3>Pictures. Recipes. Minimal commentary.</h3>
     </div>
   </div>
 </div>
@@ -24,7 +24,7 @@ nav: false
     <div class="overlay-text">Rock Climbing</div> 
   </a>
   <a href="/snowboarding" class="grid-item">
-    <img src="https://images.mostlyrocks.com/home/skiing.jpeg" alt="Snowboarding">
+    <img src="https://images.mostlyrocks.com/home/snowboarding.jpeg" alt="Snowboarding">
     <div class="overlay-text">Snowboarding</div>
   </a>
   <a href="/about" class="grid-item">
