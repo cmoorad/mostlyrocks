@@ -30,6 +30,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
+            },{id: "dropdown-years",
+              title: "Years",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/years/";
+              },
             },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
