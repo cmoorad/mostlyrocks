@@ -22,7 +22,7 @@ Pictures from our trip into the wind river range.
     <img width=1000 src="https://images.mostlyrocks.com/winds-2023/1.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/10.jpeg">
-    <img width=600 src="https://images.mostlyrocks.com/winds-2023/10.jpeg" />
+    <img width=440 src="https://images.mostlyrocks.com/winds-2023/10.jpeg" />
     </a>
     <div class="image-row">
         <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/9.jpeg">
