@@ -107,4 +107,65 @@ layout: default
     src="{{ site.third_party_libraries.spotlight.url.js }}"
     crossorigin="anonymous"
   ></script>
+
+  <script
+  defer
+  src="{{ site.third_party_libraries.spotlight.url.js }}"
+  crossorigin="anonymous"
+  ></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const images = document.querySelectorAll("img");
+
+    const checkImage = async (url) => {
+      try {
+        const res = await fetch(url, { method: 'HEAD' });
+        return res.ok;
+      } catch (e) {
+        return false;
+      }
+    };
+
+    for (const img of images) {
+      try {
+        const url = new URL(img.src);
+        if (!url.hostname.includes("images.mostlyrocks.com")) continue;
+
+        const pathParts = url.pathname.split("/");
+        const filename = pathParts.pop();
+        const cleanPathParts = pathParts.filter(p => p !== "thumbs" && !["400", "800", "1200"].includes(p));
+        const folder = cleanPathParts.join("/");
+
+        const v = Date.now();
+
+        const fullSize = `${url.origin}${folder}/${filename}?v=${v}`;
+        const src400 = `${url.origin}${folder}/thumbs/400/${filename}`;
+        const src800 = `${url.origin}${folder}/thumbs/800/${filename}`;
+        const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}`;
+
+        const sources = [];
+        const thumbs = {};
+
+        if (await checkImage(src400)) { sources.push(`${src400} 400w`); thumbs[400] = true; }
+        if (await checkImage(src800)) { sources.push(`${src800} 800w`); thumbs[800] = true; }
+        if (await checkImage(src1200)) { sources.push(`${src1200} 1200w`); thumbs[1200] = true; }
+
+        if (thumbs[1200]) {
+          img.setAttribute("src", src1200);
+        } else {
+          img.setAttribute("src", fullSize);
+        }
+        img.setAttribute("loading", "lazy");
+        if (sources.length > 0) {
+          img.setAttribute("srcset", sources.join(", "));
+          img.setAttribute("sizes", "(max-width: 600px) 100vw, (max-width: 900px) 75vw, 1200px");
+        }
+      } catch (e) {
+        console.warn("Failed to set responsive thumbnail for", img, e);
+      }
+    }
+  });
+  </script>
 </div>
+
