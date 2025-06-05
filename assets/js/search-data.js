@@ -66,6 +66,17 @@ ninja.data = [{
           window.location.href = "/climbing/2024/09/10/hulk-trip.html";
         
       },
+    },{id: "post-chamonix-2024",
+      
+        title: "Chamonix 2024",
+      
+      description: "7 days of climbing in the Chamonix, FR",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2024/07/31/chamonix.html";
+        
+      },
     },{id: "post-wind-river-range-2023",
       
         title: "Wind River Range 2023",
