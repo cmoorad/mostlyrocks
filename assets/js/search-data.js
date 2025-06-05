@@ -37,6 +37,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/years/";
               },
+            },{id: "dropdown-places",
+              title: "Places",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/places/";
+              },
             },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
