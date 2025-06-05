@@ -22,8 +22,7 @@ nav_order: 2
     <h2>{{ "A collection of rock climbing trips and photos." }}</h2>
 </div>
 
-<hr>
-
+<br>
 
   <ul class="post-list">
 

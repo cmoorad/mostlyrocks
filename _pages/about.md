@@ -95,3 +95,8 @@ I started splitboarding in 2018 and am fortunate to have ridden in some cool pla
 ### Website
 I built this website using various free Jekyll templates and coding with lots of AI assistance. The templates I used are licensed on my GitHub account — @cmoorad.
 
+### Test
+more text
+
+### Test
+more text

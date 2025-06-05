@@ -5,8 +5,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
       {% else %}
         {{ page.title }}
       {% endif %}
@@ -23,21 +22,16 @@ layout: default
             {% if page.profile.image_circular %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
             {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1
-        rounded' %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-        30vw, 95vw"{% endcapture %}
-            {%
-              include figure.liquid loading="eager" url=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" url=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image %}
           {% endif %}
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
         </div>
         <div class="clearfix">{{ content }}</div>
-    <!-- Close profile-container and reopen it for photos section -->
       </div>
       <div class="profile-container" style="margin-top: 0rem;">
         {% if page.photo_gallery %}
@@ -48,8 +42,25 @@ layout: default
           <div class="collapse" id="photoGallery">
             <div class="spotlight-group" data-gallery="true" data-autohide="false" data-infinite="true">
               {% for image in page.photo_gallery %}
+                {% assign url_base = image.url | remove: 'https://images.mostlyrocks.com/' %}
+                {% assign folder_parts = url_base | split: '/' %}
+                {% assign filename = folder_parts | last %}
+                {% assign folder_index = folder_parts.size | minus: 1 %}
+                {% assign folder = folder_parts | slice: 0, folder_index | join: '/' %}
+                {% assign cache_buster = site.time | date: '%s' %}
+
                 <a class="spotlight" href="{{ image.url }}" data-align="{{ image.align | default: 'center' }}" data-title="{{ image.alt }}">
-                  <img src="{{ image.url }}" alt="{{ image.alt }}" />
+                  <img
+                    src="https://images.mostlyrocks.com/{{ folder }}/thumbs/400/{{ filename }}?v={{ cache_buster }}"
+                    srcset="
+                      https://images.mostlyrocks.com/{{ folder }}/thumbs/400/{{ filename }}?v={{ cache_buster }} 400w,
+                      https://images.mostlyrocks.com/{{ folder }}/thumbs/800/{{ filename }}?v={{ cache_buster }} 800w,
+                      https://images.mostlyrocks.com/{{ folder }}/thumbs/1200/{{ filename }}?v={{ cache_buster }} 1200w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                    alt="{{ image.alt }}"
+                    loading="lazy"
+                    onerror="console.error('Could not load thumbnail:', this.src); this.src='{{ image.url }}';"
+                  />
                 </a>
               {% endfor %}
             </div>
@@ -58,7 +69,6 @@ layout: default
         {% endif %}
       {% endif %}
 
-    <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
@@ -66,7 +76,6 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
@@ -74,7 +83,6 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
@@ -82,11 +90,9 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
@@ -96,12 +102,9 @@ layout: default
     {% endif %}
   </article>
 
-
   <script
-  defer
-  src="{{ site.third_party_libraries.spotlight.url.js }}"
-  crossorigin="anonymous"
-></script>
-
-
+    defer
+    src="{{ site.third_party_libraries.spotlight.url.js }}"
+    crossorigin="anonymous"
+  ></script>
 </div>

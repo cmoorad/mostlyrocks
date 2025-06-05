@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: Years
     permalink: /years/
+  - title: divider
+  - title: Places
+    permalink: /places/
 ---

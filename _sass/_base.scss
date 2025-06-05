@@ -21,7 +21,7 @@ strong {
 
 hr {
   border-top: 1px solid var(--global-divider-color);
-  margin-bottom:0 !important;
+  /*margin-bottom:0 !important;*/
 }
 
 table {
@@ -631,7 +631,8 @@ footer.sticky-bottom {
   padding: 0;
 
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border-top: 3px solid var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
     list-style: none;
     /*padding-top: 1rem;
     padding-bottom: 1rem;*/
@@ -1499,7 +1500,7 @@ figure.cover {
     }
     
     @media (max-width: 576px) {
-      font-size: 2.5rem; // Small mobile screens
+      font-size: 3rem; // Small mobile screens
     }
   }
   
@@ -1640,14 +1641,22 @@ html body .spl-title {
     align-items: center; /* Centers the thumbnail vertically */
     height: 150px;
     overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .col-sm-9 {
-    margin-bottom: 20px; /* Adds a slight margin to the text */
+    /*margin-bottom: 20px; /* Adds a slight margin to the text */
+    /*margin-top: 20px;*/
     font-weight: normal;
     h2 {
       font-weight: normal; /* Makes the post title bold */
     }
+
+    @media  (max-width: 768px) {
+    margin-top: 10px; /* Adjust this value as needed */
+    }
+
   }
 
 }
@@ -1668,20 +1677,24 @@ body.home-page .container.mt-5 {
   margin-top: 0 !important; /* Removes the top margin only for the homepage */
 }
 
-.home-hero-section {
+body.home-page .container-wide.mt-5 {
+  margin-top: 0 !important; /* Removes the top margin only for the homepage */
+}
+
+ .home-hero-section {
   position: relative;
   background-image: url(https://images.mostlyrocks.com/winds-2023/3.jpeg);
-  background-size: cover; /* Change from contain to cover */
-  background-position: center; /* Center both horizontally and vertically */
+  background-size: cover; // Change from contain to cover
+  background-position: center; // Center both horizontally and vertically
   background-repeat: no-repeat;
-  background-attachment: scroll; /* Change from fixed to scroll for mobile compatibility */
+  background-attachment: scroll; // Change from fixed to scroll for mobile compatibility
   color: white;
-  min-height: 100vh; /* Use viewport height instead of auto */
+  min-height:150vh; // Use viewport height instead of auto
   width: 100%;
-  padding: 2rem 0; /* Reduce padding on mobile */
+  padding: 2rem 0; // Reduce padding on mobile
   margin: 0 auto;
 
-  /* Add the overlay */
+  // Add the overlay
   &::before {
     content: '';
     position: absolute;
@@ -1701,9 +1714,9 @@ body.home-page .container.mt-5 {
     position: relative;
     z-index: 2;
     text-align: center;
-    padding: 1rem; /* Add some padding around content */
-    width: 100%; /* Ensure content takes full width on mobile */
-    max-width: 90%; /* Limit width on mobile */
+    padding: 1rem; // Add some padding around content
+    width: 100%; // Ensure content takes full width on mobile
+    max-width: 90%; // Limit width on mobile
   }
 
   .header-content-inner {
@@ -1716,14 +1729,14 @@ body.home-page .container.mt-5 {
     }
   }
   
-  /* Add responsive adjustments */
+  // Add responsive adjustments
   @media (max-width: 768px) {
-    min-height: 70vh; /* Slightly smaller on mobile */
+    min-height: 70vh; // Slightly smaller on mobile
     background-size: cover;
     background-position: center;
     
     h1 {
-      font-size: 3rem !important; /* Smaller font on mobile */
+      font-size: 3rem !important; // Smaller font on mobile
     }
   }
 }
@@ -1937,4 +1950,29 @@ body.home-page .container.mt-5 {
   .image-row {
     flex-direction: column;
   }
+}
+
+
+/* attempting to widen the home page */
+
+/*
+// Override Bootstrap container width
+.container, .container-md, .container-lg, .container-xl {
+  max-width: 1400px !important; // Increase from default 1200px
+}
+  */
+
+// Custom wide container - add this to the end of your _base.scss file
+.container-wide {
+  width: 100%;
+  max-width: 1600px; // Adjust this to your preferred width
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+// Ensure post content uses full width
+.post .post-content {
+  max-width: 100%;
 }

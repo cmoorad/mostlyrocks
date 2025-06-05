@@ -22,42 +22,6 @@ layout: default
       {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
-    {% comment %}
-    <p class="post-tags">
-      {% if url_beginning == '/blog/' %}
-        <a href="{{ year | prepend: '/blog/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-      {% else %}
-        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
-      {% endif %}
-      {% if tags != '' %}
-        &nbsp; &middot; &nbsp;
-        {% for tag in page.tags %}
-          {% if url_beginning == '/blog/' %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-          {% else %}
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
-          {% endif %}
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-
-      {% if categories != '' %}
-        &nbsp; &middot; &nbsp;
-        {% for category in page.categories %}
-          {% if url_beginning == '/blog/' %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}</a>
-          {% else %}
-            <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
-          {% endif %}
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    </p>
-    {% endcomment %}
   </header>
 
   <article class="post-content">
@@ -75,26 +39,50 @@ layout: default
   {% if page.citation %}
     {% include citation.liquid %}
   {% endif %}
-
-{% comment %}
-  {% if page.related_publications %}
-    <h2>References</h2>
-    <div class="publications">
-      {% bibliography --group_by none --cited_in_order %}
-    </div>
-  {% endif %}
-
-  {% if site.related_blog_posts and site.related_blog_posts.enabled %}
-    {% if page.related_posts == null or page.related_posts %}
-      {% include related_posts.liquid %}
-    {% endif %}
-  {% endif %}
-
-  {% if site.disqus_shortname and page.disqus_comments %}
-    {% include disqus.liquid %}
-  {% endif %}
-  {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
-  {% endif %}
-{% endcomment %}
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const images = document.querySelectorAll("#markdown-content img");
+
+  const checkImage = async (url) => {
+    try {
+      const res = await fetch(url, { method: 'HEAD' });
+      return res.ok;
+    } catch (e) {
+      return false;
+    }
+  };
+
+  for (const img of images) {
+    try {
+      const url = new URL(img.src);
+      if (!url.hostname.includes("images.mostlyrocks.com")) continue;
+
+      const pathParts = url.pathname.split("/");
+      const filename = pathParts.pop();
+      const folder = pathParts.join("/");
+      const v = Date.now();
+
+      const fullSize = `${url.origin}${folder}/${filename}?v=${v}`;
+      const src400 = `${url.origin}${folder}/thumbs/400/${filename}`;
+      const src800 = `${url.origin}${folder}/thumbs/800/${filename}`;
+      const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}`;
+
+      const sources = [];
+      if (await checkImage(src400)) sources.push(`${src400} 400w`);
+      if (await checkImage(src800)) sources.push(`${src800} 800w`);
+      if (await checkImage(src1200)) sources.push(`${src1200} 1200w`);
+
+      img.setAttribute("src", fullSize);
+      img.setAttribute("loading", "lazy");
+      if (sources.length > 0) {
+        img.setAttribute("srcset", sources.join(", "));
+        img.setAttribute("sizes", "(max-width: 600px) 100vw, (max-width: 900px) 75vw, 1200px");
+      }
+    } catch (e) {
+      console.warn("Failed to set responsive thumbnail for", img, e);
+    }
+  }
+});
+</script>
