@@ -51,12 +51,7 @@ layout: default
 
                 <a class="spotlight" href="{{ image.url }}" data-align="{{ image.align | default: 'center' }}" data-title="{{ image.alt }}">
                   <img
-                    src="https://images.mostlyrocks.com/{{ folder }}/thumbs/400/{{ filename }}?v={{ cache_buster }}"
-                    srcset="
-                      https://images.mostlyrocks.com/{{ folder }}/thumbs/400/{{ filename }}?v={{ cache_buster }} 400w,
-                      https://images.mostlyrocks.com/{{ folder }}/thumbs/800/{{ filename }}?v={{ cache_buster }} 800w,
-                      https://images.mostlyrocks.com/{{ folder }}/thumbs/1200/{{ filename }}?v={{ cache_buster }} 1200w"
-                    sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                    src="https://images.mostlyrocks.com/{{ folder }}/thumbs/1200/{{ filename }}?v={{ cache_buster }}"
                     alt="{{ image.alt }}"
                     loading="lazy"
                     onerror="console.error('Could not load thumbnail:', this.src); this.src='{{ image.url }}';"
@@ -103,29 +98,14 @@ layout: default
   </article>
 
   <script
-    defer
-    src="{{ site.third_party_libraries.spotlight.url.js }}"
-    crossorigin="anonymous"
-  ></script>
-
-  <script
   defer
   src="{{ site.third_party_libraries.spotlight.url.js }}"
   crossorigin="anonymous"
   ></script>
 
   <script>
-  document.addEventListener("DOMContentLoaded", async () => {
-    const images = document.querySelectorAll("img");
-
-    const checkImage = async (url) => {
-      try {
-        const res = await fetch(url, { method: 'HEAD' });
-        return res.ok;
-      } catch (e) {
-        return false;
-      }
-    };
+  document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll(".spotlight-group img");
 
     for (const img of images) {
       try {
@@ -134,38 +114,26 @@ layout: default
 
         const pathParts = url.pathname.split("/");
         const filename = pathParts.pop();
-        const cleanPathParts = pathParts.filter(p => p !== "thumbs" && !["400", "800", "1200"].includes(p));
-        const folder = cleanPathParts.join("/");
-
+        const folder = pathParts.join("/");
         const v = Date.now();
 
-        const fullSize = `${url.origin}${folder}/${filename}?v=${v}`;
-        const src400 = `${url.origin}${folder}/thumbs/400/${filename}`;
-        const src800 = `${url.origin}${folder}/thumbs/800/${filename}`;
-        const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}`;
+        const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}?v=${v}`;
+        const fallback = `${url.origin}${folder}/${filename}?v=${v}`;
 
-        const sources = [];
-        const thumbs = {};
-
-        if (await checkImage(src400)) { sources.push(`${src400} 400w`); thumbs[400] = true; }
-        if (await checkImage(src800)) { sources.push(`${src800} 800w`); thumbs[800] = true; }
-        if (await checkImage(src1200)) { sources.push(`${src1200} 1200w`); thumbs[1200] = true; }
-
-        if (thumbs[1200]) {
-          img.setAttribute("src", src1200);
-        } else {
-          img.setAttribute("src", fullSize);
-        }
+        img.setAttribute("src", src1200);
         img.setAttribute("loading", "lazy");
-        if (sources.length > 0) {
-          img.setAttribute("srcset", sources.join(", "));
-          img.setAttribute("sizes", "(max-width: 600px) 100vw, (max-width: 900px) 75vw, 1200px");
-        }
+        img.setAttribute("width", "1200"); // optional
+
+        img.onerror = () => {
+          console.warn(`Thumbnail not found, falling back: ${src1200}`);
+          img.src = fallback;
+        };
       } catch (e) {
-        console.warn("Failed to set responsive thumbnail for", img, e);
+        console.warn("Could not process image:", img, e);
       }
     }
   });
-  </script>
+</script>
+
 </div>
 

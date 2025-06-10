@@ -19,7 +19,7 @@ photo_gallery:
   - url: https://images.mostlyrocks.com/about/2.jpeg
     align: bottom
   - url: https://images.mostlyrocks.com/about/33.jpeg
-    align: bottom
+    align: 60%
   - url: https://images.mostlyrocks.com/about/21.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/19.jpeg
@@ -42,7 +42,7 @@ photo_gallery:
   - url: https://images.mostlyrocks.com/about/9.jpeg
     align: 70%
   - url: https://images.mostlyrocks.com/about/12.jpeg
-    align: center
+    align: 60%
   - url: https://images.mostlyrocks.com/about/23.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/14.jpeg
@@ -53,11 +53,11 @@ photo_gallery:
     align: center
   - url: https://images.mostlyrocks.com/about/4.jpeg
   - url: https://images.mostlyrocks.com/about/26.jpeg
-    align: center
+    align: 30%
   - url: https://images.mostlyrocks.com/about/5.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/11.jpeg
-    align: center
+    align: 40%
   - url: https://images.mostlyrocks.com/about/8.jpeg
     align: 30%
   - url: https://images.mostlyrocks.com/about/20.jpeg
@@ -73,7 +73,7 @@ photo_gallery:
   - url: https://images.mostlyrocks.com/about/30.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/31.jpeg
-    align: center
+    align: 70%
   - url: https://images.mostlyrocks.com/about/34.jpeg
     align: 80%
     loading: lazy
@@ -94,9 +94,3 @@ I started splitboarding in 2018 and am fortunate to have ridden in some cool pla
 
 ### Website
 I built this website using various free Jekyll templates and coding with lots of AI assistance. The templates I used are licensed on my GitHub account — @cmoorad.
-
-### Test
-more text
-
-### Test
-more text

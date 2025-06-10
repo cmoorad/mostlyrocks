@@ -42,17 +42,8 @@ layout: default
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
   const images = document.querySelectorAll("#markdown-content img");
-
-  const checkImage = async (url) => {
-    try {
-      const res = await fetch(url, { method: 'HEAD' });
-      return res.ok;
-    } catch (e) {
-      return false;
-    }
-  };
 
   for (const img of images) {
     try {
@@ -64,24 +55,18 @@ document.addEventListener("DOMContentLoaded", async () => {
       const folder = pathParts.join("/");
       const v = Date.now();
 
-      const fullSize = `${url.origin}${folder}/${filename}?v=${v}`;
-      const src400 = `${url.origin}${folder}/thumbs/400/${filename}`;
-      const src800 = `${url.origin}${folder}/thumbs/800/${filename}`;
-      const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}`;
+      const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}?v=${v}`;
+      const fallback = `${url.origin}${folder}/${filename}?v=${v}`;
 
-      const sources = [];
-      if (await checkImage(src400)) sources.push(`${src400} 400w`);
-      if (await checkImage(src800)) sources.push(`${src800} 800w`);
-      if (await checkImage(src1200)) sources.push(`${src1200} 1200w`);
-
-      img.setAttribute("src", fullSize);
+      img.setAttribute("src", src1200);
       img.setAttribute("loading", "lazy");
-      if (sources.length > 0) {
-        img.setAttribute("srcset", sources.join(", "));
-        img.setAttribute("sizes", "(max-width: 600px) 100vw, (max-width: 900px) 75vw, 1200px");
-      }
+
+      img.onerror = () => {
+        console.warn(`Thumbnail not found, falling back: ${src1200}`);
+        img.src = fallback;
+      };
     } catch (e) {
-      console.warn("Failed to set responsive thumbnail for", img, e);
+      console.warn("Could not process image:", img, e);
     }
   }
 });
