@@ -8,9 +8,9 @@ children:
   - title: Snowboarding
     permalink: /snowboarding/
   - title: divider
-  - title: Years
-    permalink: /years/
+  - title: Collections
+    permalink: /collections/
   - title: divider
-  - title: Places
-    permalink: /places/
+  - title: Recipes
+    permalink: /recipes/
 ---

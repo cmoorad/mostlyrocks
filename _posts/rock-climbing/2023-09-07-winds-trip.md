@@ -11,7 +11,10 @@ images:
 
 ---
 
-Pictures from our trip into the wind river range.
+Some things I learned in the Winds:
+- You progressively lose energy at altitude. Start with harder climbs.
+- Chicken alfredo pasta is the best backpacking meal.
+- The Winds are...windy.
 
 ---
 

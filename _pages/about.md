@@ -87,7 +87,7 @@ photo_gallery:
 Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing + snowboarding trips.
 
 ### Climbing
-Some friends took me rock climbing for the first time in 2017. I fell in love with climbing a few years later at Index, WA.
+Some friends took me rock climbing for the first time in 2016. I eventually fell in love with climbing at Index, WA. To this day, Index is my favorite place to climb.
 
 ### Snowboarding
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
