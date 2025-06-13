@@ -30,19 +30,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
-            },{id: "dropdown-years",
-              title: "Years",
+            },{id: "dropdown-collections",
+              title: "Collections",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/years/";
+                window.location.href = "/collections/";
               },
-            },{id: "dropdown-places",
-              title: "Places",
+            },{id: "dropdown-recipes",
+              title: "Recipes",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/places/";
+                window.location.href = "/recipes/";
               },
             },{id: "post-yosemite-valley-2025",
       
@@ -86,6 +86,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2023/09/07/winds-trip.html";
+        
+      },
+    },{id: "post-cooke-city-2022",
+      
+        title: "Cooke City 2022",
+      
+      description: "7 days of snowboarding in Cooke City",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2022/03/25/cooke.html";
         
       },
     },{
