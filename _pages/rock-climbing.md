@@ -46,7 +46,7 @@ nav_order: 2
 
       {% if post.thumbnail %}
       <div class="col-sm-3">
-        <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+        <img class="card-img {% if post.thumbnail_position %}thumb-pos-{{ post.thumbnail_position | replace: '%', 'p' }}{% endif %}" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
       </div>
       {% endif %}
     </div>

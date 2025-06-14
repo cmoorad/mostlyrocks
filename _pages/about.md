@@ -84,7 +84,7 @@ photo_gallery:
 
 
 
-Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing + snowboarding trips.
+Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing trips.
 
 ### Climbing
 Some friends took me rock climbing for the first time in 2016. I eventually fell in love with climbing at Index, WA. To this day, Index is my favorite place to climb.

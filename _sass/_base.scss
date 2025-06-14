@@ -1246,6 +1246,13 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
+.newsletter-form-heading {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--global-text-color);
+}
+
+
 .newsletter-form-input,
 .bibsearch-form-input {
   color: var(--global-newsletter-text-color);
@@ -1648,6 +1655,57 @@ html body .spl-title {
     overflow: hidden;
     margin-bottom: 10px;
     margin-top: 10px;
+
+    .card-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      
+      /* Thumbnail position classes */
+      &.thumb-pos-top {
+        object-position: center top;
+      }
+      
+      &.thumb-pos-center {
+        object-position: center center;
+      }
+      
+      &.thumb-pos-bottom {
+        object-position: center bottom;
+      }
+      
+      /* Percentage-based positions */
+      
+      &.thumb-pos-10p {
+        object-position: center 10%;
+      }
+      
+      &.thumb-pos-20p {
+        object-position: center 20%;
+      }
+      
+      &.thumb-pos-40p {
+        object-position: center 40%;
+      }
+      
+      &.thumb-pos-60p {
+        object-position: center 60%;
+      }
+      
+      &.thumb-pos-80p {
+        object-position: center 80%;
+      }
+    }
+    
+    /* Mobile-specific adjustments */
+    @media (max-width: 576px) {
+      .card-img {
+        object-position: center 40%; /* Default mobile vertical position */
+      }
+    }
+
+
+
   }
 
   .col-sm-9 {
@@ -1940,7 +1998,7 @@ body.home-page .container-wide.mt-5 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; /* Add this line to center vertically */
-  gap: 15px;
+  column-gap: 15px;
   width: 100%;
 }
 
