@@ -12,7 +12,7 @@
   </p>
   <form
     class="newsletter-form"
-    action="https://app.loops.so/api/newsletter-form/{{ site.newsletter.endpoint }}"
+    action="{{ site.newsletter.endpoint }}"
     method="POST"
     style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
   >
