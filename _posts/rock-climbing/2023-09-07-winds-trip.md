@@ -67,4 +67,3 @@ Some things I learned in the Winds:
     </div>
     <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/14.jpeg">
     <img width=1000 src="https://images.mostlyrocks.com/winds-2023/14.jpeg" />
-    </a>    <a class="spotlight" href="/assets/img/winds/IMG_0777.png">

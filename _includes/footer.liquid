@@ -19,9 +19,12 @@
   </footer>
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
+    {% if site.newsletter %}
+      {% unless page.collection == 'posts' or page.layout == 'post' or page.url contains '/20' %}
+        {% include newsletter.liquid %}
+      {% endunless %}
     {% endif %}
+
 
     <div class="container">
       {{ footer_contents }}
