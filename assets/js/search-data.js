@@ -70,11 +70,22 @@ ninja.data = [{
       
         title: "Chamonix 2024",
       
-      description: "7 days of climbing in the Chamonix, FR",
+      description: "7 days of climbing in Chamonix, FR",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/climbing/2024/07/31/chamonix.html";
+        
+      },
+    },{id: "post-cochamó-valley-2024",
+      
+        title: "Cochamó Valley 2024",
+      
+      description: "3 weeks of climbing in Cochamó, Chile",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2024/03/10/cochamo.html";
         
       },
     },{id: "post-wind-river-range-2023",
