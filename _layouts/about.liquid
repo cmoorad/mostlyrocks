@@ -39,7 +39,7 @@ layout: default
           <h2 class="collapsible-heading" data-toggle="collapse" data-target="#photoGallery" aria-expanded="false" aria-controls="photoGallery">
             In pictures...
           </h2>
-          <div class="collapse" id="photoGallery">
+          <div class="collapse show" id="photoGallery">
             <div class="spotlight-group" data-gallery="true" data-autohide="false" data-infinite="true">
               {% for image in page.photo_gallery %}
                 {% assign url_base = image.url | remove: 'https://images.mostlyrocks.com/' %}
@@ -102,38 +102,6 @@ layout: default
   src="{{ site.third_party_libraries.spotlight.url.js }}"
   crossorigin="anonymous"
   ></script>
-
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".spotlight-group img");
-
-    for (const img of images) {
-      try {
-        const url = new URL(img.src);
-        if (!url.hostname.includes("images.mostlyrocks.com")) continue;
-
-        const pathParts = url.pathname.split("/");
-        const filename = pathParts.pop();
-        const folder = pathParts.join("/");
-        const v = Date.now();
-
-        const src1200 = `${url.origin}${folder}/thumbs/1200/${filename}?v=${v}`;
-        const fallback = `${url.origin}${folder}/${filename}?v=${v}`;
-
-        img.setAttribute("src", src1200);
-        img.setAttribute("loading", "lazy");
-        img.setAttribute("width", "1200"); // optional
-
-        img.onerror = () => {
-          console.warn(`Thumbnail not found, falling back: ${src1200}`);
-          img.src = fallback;
-        };
-      } catch (e) {
-        console.warn("Could not process image:", img, e);
-      }
-    }
-  });
-</script>
 
 </div>
 

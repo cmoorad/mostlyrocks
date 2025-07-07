@@ -53,7 +53,6 @@ Late summer climbing above the high altitude meadows of the Wind River Range wit
     <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/7.jpeg">
     <img width=1000 src="https://images.mostlyrocks.com/winds-2023/7.jpeg" />
     </a>
-    <br>
     <div class="image-row">
         <a class="spotlight" href="https://images.mostlyrocks.com/winds-2023/15.jpeg">
         <img width=320 src="https://images.mostlyrocks.com/winds-2023/15.jpeg" />

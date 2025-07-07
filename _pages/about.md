@@ -7,7 +7,7 @@ nav_order: 1
 
 profile:
   align: left
-  image: https://images.mostlyrocks.com/about/32.jpeg
+  image: https://images.mostlyrocks.com/about/1.jpeg
   image_circular: false
 
 # Photo gallery images
@@ -68,7 +68,7 @@ photo_gallery:
     align: center
   - url: https://images.mostlyrocks.com/about/15.jpeg
     align: center
-  - url: https://images.mostlyrocks.com/about/1.jpg
+  - url: https://images.mostlyrocks.com/about/32.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/30.jpeg
     align: center
@@ -87,7 +87,7 @@ photo_gallery:
 Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing trips.
 
 ### Climbing
-Some friends took me rock climbing for the first time in 2016. I eventually fell in love with climbing at Index, WA. To this day, Index is my favorite place to rock climb.
+Some friends took me rock climbing for the first time in 2016. I fell in love with climbing at Index, WA. Index is still my favorite place to rock climb.
 
 ### Snowboarding
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
