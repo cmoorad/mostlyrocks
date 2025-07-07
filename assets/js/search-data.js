@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/climbing/2025/05/23/yosemite.html";
         
       },
+    },{id: "post-index-2024",
+      
+        title: "Index 2024",
+      
+      description: "Climbing at Index, WA in 2024",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/collections/2025/01/01/index.html";
+        
+      },
     },{id: "post-the-incredible-hulk-2024",
       
         title: "The Incredible Hulk 2024",
