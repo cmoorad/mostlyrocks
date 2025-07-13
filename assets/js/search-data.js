@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/climbing/2025/05/23/yosemite.html";
         
       },
+    },{id: "post-highlight-reel",
+      
+        title: "Highlight Reel",
+      
+      description: "My favorite photos I&#39;ve taken.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/collections/2025/01/01/highlights.html";
+        
+      },
     },{id: "post-index-2024",
       
         title: "Index 2024",
