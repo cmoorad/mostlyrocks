@@ -1563,7 +1563,43 @@ figure.cover {
 
 
 .collections-header {
-  background-image: url(https://images.mostlyrocks.com/collections/index-2024/8.jpeg); // update path as needed
+  background-image: url(https://images.mostlyrocks.com/collections/index-2024/thumbs/1200/8.jpeg); // update path as needed
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+
+  h1, h2 {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4); // optional for readability
+  }
+
+  h1 {
+    font-size: 5rem; // Default size for desktop
+    word-wrap: break-word; // Allows words to break when needed
+    overflow-wrap: break-word; // Modern version of word-wrap
+    
+    @media (max-width: 768px) {
+      font-size: 3.5rem; // Medium screens
+    }
+    
+    @media (max-width: 576px) {
+      font-size: 2.5rem; // Small mobile screens
+    }
+  }
+  
+  h2, h3 {
+    @media (max-width: 576px) {
+      font-size: 1.5rem; // Smaller font for subheadings on mobile
+    }
+  }
+}
+
+.recipes-header {
+  background-image: url(https://images.mostlyrocks.com/home/recipes.jpeg); // update path as needed
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2076,4 +2112,18 @@ body.home-page .container-wide.mt-5 {
 // Ensure post content uses full width
 .post .post-content {
   max-width: 100%;
+}
+
+// Spacers
+
+.spacer-single {
+    height: 16px;
+}
+
+.spacer-double {
+    height: 32px;
+}
+
+.spacer-triple {
+    height: 48px;
 }
