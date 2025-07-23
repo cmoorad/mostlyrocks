@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-yosemite-valley-2025",
+            },{id: "post-country-bread",
+      
+        title: "Country Bread",
+      
+      description: "Pan de Champagne, a classic rustic sourdough loaf",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2025/07/23/country-bread.html";
+        
+      },
+    },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
       
@@ -55,15 +66,15 @@ ninja.data = [{
           window.location.href = "/climbing/2025/05/23/yosemite.html";
         
       },
-    },{id: "post-highlight-reel",
+    },{id: "post-top-photos",
       
-        title: "Highlight Reel",
+        title: "Top Photos",
       
-      description: "My favorite photos I&#39;ve taken.",
+      description: "The best of the best!",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/collections/2025/01/01/highlights.html";
+          window.location.href = "/collections/2025/01/01/top-photos.html";
         
       },
     },{id: "post-index-2024",
