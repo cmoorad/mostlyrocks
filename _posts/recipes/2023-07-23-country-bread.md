@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Country Bread
-date: 2025-07-23 01:59:00
-description: Pan de Champagne, a classic rustic sourdough loaf
-thumbnail: https://images.mostlyrocks.com/recipes/country-bread/2.jpeg
+date: 2023-07-23 01:59:00
+description: Pan de Champagne, a rustic French sourdough loaf
+thumbnail: https://images.mostlyrocks.com/recipes/country-bread/thumbs/1200/2.jpeg
 categories: recipes
+thumbnail_position: top
 images:
     spotlight: true
+---
+
 ---
 
 Country Bread or Pain de Campagne is a traditional French rustic loaf made with a mix of white and whole wheat flours. It has a chewy crust, open crumb, and slightly tangy flavor.
@@ -14,7 +17,7 @@ Country Bread or Pain de Campagne is a traditional French rustic loaf made with 
 ---
 
 Makes: 1 loaf  
-Start the afternoon before — it will likely take 20 hours to rise.
+For dinner, start around noon the day before. The bread will likely take up to 20 hours to rise.
 
 - Folding: 1 hour  
 - Shaping: 15 min
@@ -79,13 +82,5 @@ Start the afternoon before — it will likely take 20 hours to rise.
 11. Bake covered (lid on) at 500ºF for 20 minutes.
 12. Reduce oven to 450ºF and bake uncovered for 35–50 minutes. Darker crust = more flavor.
 13. Cool completely on a wire rack before slicing.
-
----
-
-## Notes
-
-- Use fed or unfed starter — either works.
-- Don’t slash too deep; keep dough tension intact.
-- The fridge proof is very forgiving. Overnight works great.
 
 
