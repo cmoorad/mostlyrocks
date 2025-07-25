@@ -44,18 +44,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-country-bread",
-      
-        title: "Country Bread",
-      
-      description: "Pan de Champagne, a classic rustic sourdough loaf",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/recipes/2025/07/23/country-bread.html";
-        
-      },
-    },{id: "post-yosemite-valley-2025",
+            },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
       
@@ -88,6 +77,17 @@ ninja.data = [{
           window.location.href = "/collections/2025/01/01/index.html";
         
       },
+    },{id: "post-a-post-with-image-galleries",
+      
+        title: "a post with image galleries",
+      
+      description: "this is what included image galleries could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2024/12/04/photo-gallery.html";
+        
+      },
     },{id: "post-the-incredible-hulk-2024",
       
         title: "The Incredible Hulk 2024",
@@ -110,6 +110,17 @@ ninja.data = [{
           window.location.href = "/climbing/2024/07/31/chamonix.html";
         
       },
+    },{id: "post-a-post-with-tabs",
+      
+        title: "a post with tabs",
+      
+      description: "this is what included tabs in a post could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2024/05/01/tabs.html";
+        
+      },
     },{id: "post-cochamó-valley-2024",
       
         title: "Cochamó Valley 2024",
@@ -119,6 +130,39 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2024/03/10/cochamo.html";
+        
+      },
+    },{id: "post-a-post-with-advanced-image-components",
+      
+        title: "a post with advanced image components",
+      
+      description: "this is what advanced image components could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2024/01/27/advanced-images.html";
+        
+      },
+    },{id: "post-a-post-with-geojson",
+      
+        title: "a post with geojson",
+      
+      description: "this is what included geojson code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
+        
+      },
+    },{id: "post-milk-bread",
+      
+        title: "Milk Bread",
+      
+      description: "A Japanese sweet bread with a white, pillowy crumb",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2024/01/06/milk-bread.html";
         
       },
     },{id: "post-wind-river-range-2023",
@@ -132,6 +176,83 @@ ninja.data = [{
           window.location.href = "/climbing/2023/09/07/winds-trip.html";
         
       },
+    },{id: "post-country-bread",
+      
+        title: "Country Bread",
+      
+      description: "Pan de Champagne, a rustic French sourdough loaf",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2023/07/23/country-bread.html";
+        
+      },
+    },{id: "post-a-post-with-custom-blockquotes",
+      
+        title: "a post with custom blockquotes",
+      
+      description: "an example of a blog post with custom blockquotes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/05/12/custom-blockquotes.html";
+        
+      },
+    },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+      
+        title: "a post with table of contents on a sidebar",
+      
+      description: "an example of a blog post with table of contents on a sidebar",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/04/25/sidebar-table-of-contents.html";
+        
+      },
+    },{id: "post-a-post-with-audios",
+      
+        title: "a post with audios",
+      
+      description: "this is what included audios could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/04/25/audios.html";
+        
+      },
+    },{id: "post-a-post-with-videos",
+      
+        title: "a post with videos",
+      
+      description: "this is what included videos could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/04/24/videos.html";
+        
+      },
+    },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
+      
+        title: "displaying beautiful tables with Bootstrap Tables",
+      
+      description: "an example of how to use Bootstrap Tables",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/03/20/tables.html";
+        
+      },
+    },{id: "post-a-post-with-table-of-contents",
+      
+        title: "a post with table of contents",
+      
+      description: "an example of a blog post with table of contents",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
+        
+      },
     },{id: "post-cooke-city-2022",
       
         title: "Cooke City 2022",
@@ -141,6 +262,39 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/snowboarding/2022/03/25/cooke.html";
+        
+      },
+    },{id: "post-a-post-with-redirect",
+      
+        title: "a post with redirect",
+      
+      description: "you can also redirect to assets like pdf",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/assets/pdf/example_pdf.pdf";
+        
+      },
+    },{id: "post-a-post-with-images",
+      
+        title: "a post with images",
+      
+      description: "this is what included images could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2015/05/15/images.html";
+        
+      },
+    },{id: "post-a-post-with-formatting-and-links",
+      
+        title: "a post with formatting and links",
+      
+      description: "march &amp; april, looking forward to summer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
         
       },
     },{
