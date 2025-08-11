@@ -13,7 +13,7 @@ nav: false
       <hr>
       <br>
       <br>
-      <h3>Pictures. Recipes. Minimal commentary.</h3>
+      <h3>Pictures. Recipes. Stories.</h3>
     </div>
   </div>
 </div>

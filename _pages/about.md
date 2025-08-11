@@ -7,7 +7,7 @@ nav_order: 1
 
 profile:
   align: left
-  image: https://images.mostlyrocks.com/about/1.jpeg
+  image: https://images.mostlyrocks.com/about/32.jpeg
   image_circular: false
 
 # Photo gallery images
@@ -68,7 +68,7 @@ photo_gallery:
     align: center
   - url: https://images.mostlyrocks.com/about/15.jpeg
     align: center
-  - url: https://images.mostlyrocks.com/about/32.jpeg
+  - url: https://images.mostlyrocks.com/about/1.jpeg
     align: center
   - url: https://images.mostlyrocks.com/about/30.jpeg
     align: center
@@ -84,13 +84,13 @@ photo_gallery:
 
 
 
-Hi — I'm Chris. I live in Leavenworth, WA and I created this website to document pictures from climbing trips.
+Hi — I'm Chris. I live in Leavenworth, WA and I created this website to share pictures, recipes, and stories.
 
-### Climbing
+### Rock Climbing
 Some friends took me rock climbing for the first time in 2016. I fell in love with climbing at Index, WA. Index is still my favorite place to rock climb.
 
 ### Snowboarding
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
 
 ### Website
-I built this website using various free Jekyll templates and coding with lots of AI assistance. The templates I used are licensed on my GitHub account — @cmoorad.
+I am not a software engineer, but thanks to AI I've been able to build this website without relying on a third party. I used the Al-Folio Jekyll template to get started, which you can find licensed on my GitHub account — @cmoorad, and I use S3 and Cloudfront to serve my images.
