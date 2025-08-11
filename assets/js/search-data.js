@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-yosemite-valley-2025",
+            },{id: "post-squamish-bc-2025",
+      
+        title: "Squamish, BC 2025",
+      
+      description: "A long weekend in Squamish, BC.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/05/23/squamish.html";
+        
+      },
+    },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
       
