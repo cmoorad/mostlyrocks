@@ -18,6 +18,8 @@ photo_gallery:
     align: center
   - url: https://images.mostlyrocks.com/about/2.jpeg
     align: bottom
+  - url: https://images.mostlyrocks.com/about/35.jpeg
+    align: 20%
   - url: https://images.mostlyrocks.com/about/33.jpeg
     align: 60%
   - url: https://images.mostlyrocks.com/about/21.jpeg

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Top Photos
-date: 2025-01-01 01:59:00
-description: The best of the best!
-thumbnail: https://images.mostlyrocks.com/winds-2023/3.jpeg
+title: Favorite Photos
+date: 2025-01-01 23:59:00
+description: The best of the best
+thumbnail: https://images.mostlyrocks.com/2025/squamish/thumbs/1200/9.jpeg
 categories: collections
 images:
     spotlight: true
@@ -11,7 +11,7 @@ images:
 
 ---
 
-A highlight reel of some of my favorite photos. No commentary. I accredit 100% of any beauty I've captured to the places themselves and our beautiful planet. We are so lucky to have a world full of Mostly Rocks to explore!
+Please enjoy my favorite photos of mostly rocks. I accredit 100% of any beauty I've captured to the places themselves and our beautiful planet. We are so lucky to have a world full of Mostly Rocks to explore!
 
 ---
 
@@ -39,12 +39,15 @@ A highlight reel of some of my favorite photos. No commentary. I accredit 100% o
             <img width=750 src="https://images.mostlyrocks.com/2024/chamonix/4.jpeg" />
         </a>
     <div class="spacer-triple"></div>
-        <a class="spotlight" href="https://images.mostlyrocks.com/hulk-2024/3.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/hulk-2024/3.jpeg" />
-        </a>
-    <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/index-2024/5.jpeg">
             <img width=750 src="https://images.mostlyrocks.com/collections/index-2024/5.jpeg" />
         </a>
     <div class="spacer-triple"></div>
-</div>
+        <a class="spotlight" href="https://images.mostlyrocks.com/2024/hulk/3.jpeg">
+                        <img width="750" src="https://images.mostlyrocks.com/2024/hulk/3.jpeg" />
+                </a>
+    <div class="spacer-triple"></div>
+        <a class="spotlight" href="https://images.mostlyrocks.com/2025/squamish/9.jpeg">
+                <img width="750" src="https://images.mostlyrocks.com/2025/squamish/9.jpeg" />
+            </a>
+    <div class="spacer-triple"></div>
