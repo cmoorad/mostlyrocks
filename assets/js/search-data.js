@@ -44,15 +44,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-squamish-bc-2025",
+            },{id: "post-squamish-2025",
       
-        title: "Squamish, BC 2025",
+        title: "Squamish 2025",
       
       description: "A long weekend in Squamish, BC.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/climbing/2025/05/23/squamish.html";
+          window.location.href = "/climbing/2025/07/21/squamish.html";
         
       },
     },{id: "post-yosemite-valley-2025",
@@ -66,15 +66,15 @@ ninja.data = [{
           window.location.href = "/climbing/2025/05/23/yosemite.html";
         
       },
-    },{id: "post-top-photos",
+    },{id: "post-favorite-photos",
       
-        title: "Top Photos",
+        title: "Favorite Photos",
       
-      description: "The best of the best!",
+      description: "The best of the best",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/collections/2025/01/01/top-photos.html";
+          window.location.href = "/collections/2025/01/01/favorite-photos.html";
         
       },
     },{id: "post-index-2024",
@@ -262,6 +262,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
+        
+      },
+    },{id: "post-wind-river-range-2022",
+      
+        title: "Wind River Range 2022",
+      
+      description: "3 days of climbing in the Winds, WY",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2022/08/29/winds.html";
         
       },
     },{id: "post-cooke-city-2022",
