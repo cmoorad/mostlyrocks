@@ -2141,3 +2141,38 @@ body.home-page .container-wide.mt-5 {
 .spacer-triple {
     height: 48px;
 }
+
+
+// Add this after your existing spotlight styles
+
+/* Remove spotlight lightbox top bar/border */
+#spotlight .spl-header,
+#spotlight .spl-top-bar,
+#spotlight .spl-controls-top {
+  display: none !important;
+}
+
+/* Hide spotlight navigation/info bar */
+#spotlight .spl-footer {
+  display: none !important;
+}
+
+/* Remove any top padding/margin from spotlight container */
+#spotlight {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Remove borders from spotlight image container */
+#spotlight .spl-image,
+#spotlight .spl-image-container {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Make sure the image takes full space */
+#spotlight img {
+  border: none !important;
+  box-shadow: none !important;
+}
