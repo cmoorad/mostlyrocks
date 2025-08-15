@@ -7,7 +7,7 @@ nav_order: 1
 
 profile:
   align: left
-  image: https://images.mostlyrocks.com/about/32.jpeg
+  image: https://images.mostlyrocks.com/about/thumbs/1200/32.jpeg
   image_circular: false
 
 # Photo gallery images
@@ -86,7 +86,7 @@ photo_gallery:
 
 
 
-Hi — I'm Chris. I live in Leavenworth, WA and I created this website to share pictures, recipes, and stories.
+Hi — I'm Chris. I live in Leavenworth, WA and I created this website to share pictures (mostly of rocks), recipes, and stories.
 
 ### Rock Climbing
 Some friends took me rock climbing for the first time in 2016. I fell in love with climbing at Index, WA. Index is still my favorite place to rock climb.
