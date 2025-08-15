@@ -176,6 +176,17 @@ ninja.data = [{
           window.location.href = "/recipes/2024/01/06/milk-bread.html";
         
       },
+    },{id: "post-indian-creek-2023",
+      
+        title: "Indian Creek 2023",
+      
+      description: "2 weeks of climbing in Indian Creek, UT",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2023/11/12/indian-creek.html";
+        
+      },
     },{id: "post-wind-river-range-2023",
       
         title: "Wind River Range 2023",
@@ -295,6 +306,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/assets/pdf/example_pdf.pdf";
+        
+      },
+    },{id: "post-cabin-creek-2021",
+      
+        title: "Cabin Creek 2021",
+      
+      description: "A cold New Years Eve at Cabin Creek Cabin, MT",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2022/01/02/cabin-creek.html";
         
       },
     },{id: "post-a-post-with-images",
