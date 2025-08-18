@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Favorite Photos
+title: The Gallery
 date: 2025-01-01 23:59:00
-description: The best of the best
+description: Best shots across the years
 thumbnail: https://images.mostlyrocks.com/2025/squamish/thumbs/1200/9.jpeg
 categories: collections
 images:
@@ -11,7 +11,7 @@ images:
 
 ---
 
-Please enjoy my favorite photos of mostly rocks. I accredit 100% of any beauty I've captured to the places themselves and our beautiful planet. We are so lucky to have a world full of Mostly Rocks to explore!
+Mostly rocks, sometimes not — here are my favorite photos of rocks, landscapes, and places that inspire me.
 
 ---
 
