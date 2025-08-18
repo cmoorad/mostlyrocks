@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Squamish 2025",
       
-      description: "A long weekend in Squamish, BC.",
+      description: "3 days of climbing in Squamish, BC",
       section: "Posts",
       handler: () => {
         
@@ -66,26 +66,37 @@ ninja.data = [{
           window.location.href = "/climbing/2025/05/23/yosemite.html";
         
       },
-    },{id: "post-favorite-photos",
+    },{id: "post-snow-days",
       
-        title: "Favorite Photos",
+        title: "Snow Days",
       
-      description: "The best of the best",
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2025/01/01/snow-days.html";
+        
+      },
+    },{id: "post-alpine-rafting",
+      
+        title: "Alpine Rafting",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2025/01/01/alpine-rafting.html";
+        
+      },
+    },{id: "post-the-gallery",
+      
+        title: "The Gallery",
+      
+      description: "Best shots across the years",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/collections/2025/01/01/favorite-photos.html";
-        
-      },
-    },{id: "post-index-2024",
-      
-        title: "Index 2024",
-      
-      description: "Climbing at Index, WA in 2024",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/collections/2025/01/01/index.html";
         
       },
     },{id: "post-a-post-with-image-galleries",
@@ -174,6 +185,50 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/recipes/2024/01/06/milk-bread.html";
+        
+      },
+    },{id: "post-index-2024",
+      
+        title: "Index 2024",
+      
+      description: "Climbing at Index, WA in 2024",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2024/01/01/index-2024.html";
+        
+      },
+    },{id: "post-washington-2024",
+      
+        title: "Washington 2024",
+      
+      description: "A season of skiing in Washington State",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2024/01/01/washington-2025.html";
+        
+      },
+    },{id: "post-washington-2024",
+      
+        title: "Washington 2024",
+      
+      description: "A season of skiing in Washington State",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2024/01/01/washington-2024.html";
+        
+      },
+    },{id: "post-washington-2024",
+      
+        title: "Washington 2024",
+      
+      description: "A season of skiing in Washington State",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2024/01/01/washington-2023.html";
         
       },
     },{id: "post-indian-creek-2023",
@@ -273,6 +328,61 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
+        
+      },
+    },{id: "post-leavenworth-2023",
+      
+        title: "Leavenworth 2023",
+      
+      description: "A year of local alpine climbing and cragging",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2023/01/01/leavenworth-2024.html";
+        
+      },
+    },{id: "post-leavenworth-2023",
+      
+        title: "Leavenworth 2023",
+      
+      description: "A year of local alpine climbing and cragging",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2023/01/01/leavenworth-2023.html";
+        
+      },
+    },{id: "post-index-2023",
+      
+        title: "Index 2023",
+      
+      description: "A year of climbing at Index, WA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2023/01/01/index-2023.html";
+        
+      },
+    },{id: "post-leavenworth-2023",
+      
+        title: "Leavenworth 2023",
+      
+      description: "A year of local alpine climbing and cragging",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2023/01/01/leavenworth-2022.html";
+        
+      },
+    },{id: "post-index-2023",
+      
+        title: "Index 2023",
+      
+      description: "A year of climbing at Index, WA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2023/01/01/template.html";
         
       },
     },{id: "post-wind-river-range-2022",
