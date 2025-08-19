@@ -16,7 +16,7 @@ Japanese milk bread, or <i>shokupan</i>, is a soft, fluffy, and slightly sweet w
 
 ---
 
-Makes: 1 large round or 2 loaves  
+Makes: 1 round
 For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours of rising and resting.
 
 <div align="center">
@@ -51,37 +51,25 @@ For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours o
 <i>Here are two variations — one standard and one richer (brioche-style). You can shape these into loaves or rolls.</i>
 
 ### Tangzhong (same for both)
-- ¼ cup water  
-- 2 Tbsp whole milk  
-- 2 Tbsp bread flour
+- ¾ cup (180 grams) milk
+- 4 (37g) tbsp King Arthur bread flour
 
-### Option 1 (standard garlic-dill rolls)
-- ½ cup whole milk  
-- 4 Tbsp melted butter (plus 2 Tbsp more for garlic topping)  
-- ¼ cup sugar  
-- 2 Tbsp nonfat dry milk powder  
-- 1 Tbsp dried dill  
-- 2 tsp instant yeast  
-- 1 tsp Diamond Crystal kosher salt  
-- 1 tsp garlic powder  
-- 1 egg  
-- 2½ cups bread flour
+### Dough
+- 2.5 cups (312g) King Arthur bread flour
+   - The higher % protein in KAF bread flour is important for the structure needed in these rolls!
+- 2 eggs
+- 1 tbsp olive oil
+- ¼ cup sugar (plus a tbsp or two ;)) 65 grams
+- 1.5 tsp salt
+- ½ active dry yeast packet
+- 5 tbsp of unsalted butter, soft or melted or cold
 
+### Optional Garlic Butter Topping
 Garlic butter topping:
 - 2–3 cloves garlic, chopped  
 - ½ tsp garlic powder  
 - ½ tsp kosher salt  
 - 2 Tbsp chopped fresh dill
-
-### Option 2 (enriched/brioche-style loaves)
-- 1 cup whole milk or buttermilk  
-- 4 eggs (reserve 1 for egg wash)  
-- ¼ cup sugar (or up to ½ cup for sweeter)  
-- 2 Tbsp vegetable or olive oil  
-- 2¾ tsp Diamond Crystal kosher salt  
-- 2 tsp active dry yeast  
-- 3¾ cups all-purpose flour  
-- ½ cup unsalted butter, cubed and chilled
 
 ---
 
@@ -90,24 +78,19 @@ Garlic butter topping:
     Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, stirring constantly, until thick like pudding (about 2 minutes). Scrape into stand mixer bowl and let cool (you can throw it in the freezer for 10 min to speed up).
 
 2. **Make the dough:**  
-    Add all ingredients (except butter if using enriched version) to the bowl. Mix on low until combined, then knead:
-    - For garlic-dill: Mix ~20–25 min on low until soft, smooth dough forms.  
-    - For enriched: Knead 12 min on medium-low, then add butter in two stages, kneading 10–15 min more until dough is elastic and passes windowpane test.
+    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Then 12 more minutes until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
 
 3. **First rise:**  
-    Cover the bowl and rest dough at room temp for 30–90 minutes until doubled. Optionally, chill overnight for better flavor.
+    After the dough has enough structure to pass window pane test, take it out, fold it into a tight ball, and place back in bowl seam-down. Cover the bowl and rest dough at room temp for 30 minutes and then place in the fridge overnight. If baking same-day, let rise for 1.5 hours or until doubled (can take up to 4 hours!).
 
 4. **Shape:**  
-    Deflate dough and divide into 10 pieces. Roll into tight balls and place in greased round pan or loaf pans (2×4 layout for loaves).
-
-5. **Final proof:**  
-    Cover loosely and proof 2–3 hours until very puffy. Use the finger dent test to confirm readiness.
+    Butter a 9-10” pan. Deflate dough and cut into 10 pieces, rolling each into a tight ball and place into pan, cover and let rise for 2 hours (or until doubled, do "poke" proof test).
 
 6. **Egg wash & bake:**  
-    Preheat oven to 350ºF. Beat 1 egg and brush rolls or loaves. Bake 25–35 min until golden and 190ºF inside.
+    Preheat oven to 350ºF. Beat 1 egg and brush rolls or loaves. Bake 25–30 min until golden and 190ºF inside.
 
-7. **Finish (optional for garlic-dill):**  
-    Melt 2 Tbsp butter with garlic, garlic powder, and salt. Remove from heat, stir in dill, and brush over rolls while warm. It will feel like a lot — that's the point.
+7. **Optional garlic-dill finish:**  
+    Melt 2 Tbsp butter with garlic, garlic powder, and salt. Remove from heat, stir in dill, and brush over rolls while warm.
 
 
 <!-- Second set of images - same group -->
