@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://mostlyrocks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mostlyrocks.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-18T19:43:38+00:00</updated><id>https://mostlyrocks.com/feed.xml</id><title type="html">Mostly Rocks</title><subtitle>A blog about rock climbing, gardening, baking, and other hobbies.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://mostlyrocks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mostlyrocks.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-19T17:16:50+00:00</updated><id>https://mostlyrocks.com/feed.xml</id><title type="html">Mostly Rocks</title><subtitle>A blog about rock climbing, gardening, baking, and other hobbies.
 </subtitle><entry><title type="html">Squamish 2025</title><link href="https://mostlyrocks.com/climbing/2025/07/21/squamish.html" rel="alternate" type="text/html" title="Squamish 2025" /><published>2025-07-21T01:59:00+00:00</published><updated>2025-07-21T01:59:00+00:00</updated><id>https://mostlyrocks.com/climbing/2025/07/21/squamish</id><content type="html" xml:base="https://mostlyrocks.com/climbing/2025/07/21/squamish.html"><![CDATA[<hr />
 
 <p>Back to Squamish! Not only do I love the granite, but also the food, weather, and general amenities.</p>
@@ -446,7 +446,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="15c96d6e-8f57-40e0-be47-ee9a55ed3d0e" data-name="log">
+<ul id="log" class="tab" data-tab="379f27e0-f8e7-430b-b0cd-011119a75664" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -461,7 +461,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="15c96d6e-8f57-40e0-be47-ee9a55ed3d0e" data-name="log">
+<ul class="tab-content" id="379f27e0-f8e7-430b-b0cd-011119a75664" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -485,7 +485,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="60927df0-9301-4601-b869-8255f17b86fa" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="36f27f5f-c951-45b2-8eaa-b15893238fed" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -496,7 +496,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="60927df0-9301-4601-b869-8255f17b86fa" data-name="data-struct">
+<ul class="tab-content" id="36f27f5f-c951-45b2-8eaa-b15893238fed" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -518,7 +518,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="53b71235-84af-4cbd-91e2-75cabc8029b6" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="eab914d7-76b0-4b1e-aaed-b7c7c9d15e5f" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -533,7 +533,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="53b71235-84af-4cbd-91e2-75cabc8029b6" data-name="something-else">
+<ul class="tab-content" id="eab914d7-76b0-4b1e-aaed-b7c7c9d15e5f" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
