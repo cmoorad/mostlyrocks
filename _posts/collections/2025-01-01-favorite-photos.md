@@ -13,6 +13,8 @@ images:
 
 Mostly rocks, sometimes not — here are my favorite photos of rocks, landscapes, and places that inspire me.
 
+💡 You can click onto images for the gallery view 💡
+
 ---
 
 <!-- Group 1 -->

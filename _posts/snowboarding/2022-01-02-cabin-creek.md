@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cabin Creek 2021
+title: Cabin Creek 2022
 date: 2022-01-02 01:59:00
 description: A cold New Years Eve at Cabin Creek Cabin, MT
 thumbnail: https://images.mostlyrocks.com/2021/cabin-creek/12.jpeg
