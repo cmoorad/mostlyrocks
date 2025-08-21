@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/climbing/2025/07/21/squamish.html";
         
       },
+    },{id: "post-washington-2025",
+      
+        title: "Washington 2025",
+      
+      description: "Snowboarding in Washington state in 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2025/07/01/washington-2025.html";
+        
+      },
     },{id: "post-yosemite-valley-2025",
       
         title: "Yosemite Valley 2025",
@@ -132,6 +143,17 @@ ninja.data = [{
           window.location.href = "/climbing/2024/07/31/chamonix.html";
         
       },
+    },{id: "post-washington-2024",
+      
+        title: "Washington 2024",
+      
+      description: "Snowboarding in Washington state in 2024.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2024/07/01/washington-2024.html";
+        
+      },
     },{id: "post-a-post-with-tabs",
       
         title: "a post with tabs",
@@ -187,6 +209,17 @@ ninja.data = [{
           window.location.href = "/recipes/2024/01/06/milk-bread.html";
         
       },
+    },{id: "post-cooke-city-2023",
+      
+        title: "Cooke City 2023",
+      
+      description: "New Years at the Cooke City yurt, MT.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2024/01/01/cooke-2023.html";
+        
+      },
     },{id: "post-index-2024",
       
         title: "Index 2024",
@@ -196,39 +229,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2024/01/01/index-2024.html";
-        
-      },
-    },{id: "post-washington-2024",
-      
-        title: "Washington 2024",
-      
-      description: "A season of skiing in Washington State",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2024/01/01/washington-2025.html";
-        
-      },
-    },{id: "post-washington-2024",
-      
-        title: "Washington 2024",
-      
-      description: "A season of skiing in Washington State",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2024/01/01/washington-2024.html";
-        
-      },
-    },{id: "post-washington-2024",
-      
-        title: "Washington 2024",
-      
-      description: "A season of skiing in Washington State",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2024/01/01/washington-2023.html";
         
       },
     },{id: "post-indian-creek-2023",
@@ -262,6 +262,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/recipes/2023/07/23/country-bread.html";
+        
+      },
+    },{id: "post-washington-2023",
+      
+        title: "Washington 2023",
+      
+      description: "Snowboarding in Washington state in 2023.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2023/07/01/washington-2023.html";
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
@@ -418,15 +429,26 @@ ninja.data = [{
           window.location.href = "/assets/pdf/example_pdf.pdf";
         
       },
-    },{id: "post-cabin-creek-2021",
+    },{id: "post-cabin-creek-2022",
       
-        title: "Cabin Creek 2021",
+        title: "Cabin Creek 2022",
       
       description: "A cold New Years Eve at Cabin Creek Cabin, MT",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/snowboarding/2022/01/02/cabin-creek.html";
+        
+      },
+    },{id: "post-cooke-city-2021",
+      
+        title: "Cooke City 2021",
+      
+      description: "A week of snowboarding around Cooke City, MT.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2021/01/05/cooke-2021.html";
         
       },
     },{id: "post-a-post-with-images",
