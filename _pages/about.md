@@ -89,10 +89,10 @@ photo_gallery:
 Hi — I'm Chris. I live in Leavenworth, WA and I created this website to share pictures (mostly of rocks), recipes, and stories.
 
 ### Rock Climbing
-Some friends took me rock climbing for the first time at Rumney, NH. I fell in love with climbing a few years later at Index, WA. Index is still my favorite place to rock climb.
+Some friends took me rock climbing for the first time in 2016 at Rumney, NH. I fell in love with climbing a few years later at Index, WA. Index is still my favorite place to rock climb.
 
 ### Snowboarding
-I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being mediocre at the sport.
+I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite being cardiovascularly mediocre.
 
 ### Website
-I am not a software engineer, but thanks to AI I've been able to build this website without relying on a third party. I used the Al-Folio Jekyll template to get started, which you can find licensed on my GitHub account — @cmoorad, and I use S3 and Cloudfront to serve my images.
+I am not a software engineer, but thanks to AI I've been able to build this website without relying on a third party. I used the [Al-Folio Jekyll template](https://github.com/alshedivat/al-folio) to get started, and I use S3 with Cloudfront to serve my images.
