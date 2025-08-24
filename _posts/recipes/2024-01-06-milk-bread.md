@@ -78,7 +78,7 @@ Garlic butter topping:
     Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, stirring constantly, until thick like pudding (about 2 minutes). Scrape into stand mixer bowl and let cool (you can throw it in the freezer for 10 min to speed up).
 
 2. **Make the dough:**  
-    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Then 12 more minutes until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
+    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Add the butter and continue mixing for another 12 minutes, until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
 
 3. **First rise:**  
     After the dough has enough structure to pass window pane test, take it out, fold it into a tight ball, and place back in bowl seam-down. Cover the bowl and rest dough at room temp for 30 minutes and then place in the fridge overnight. If baking same-day, let rise for 1.5 hours or until doubled (can take up to 4 hours!).
