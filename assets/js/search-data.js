@@ -85,7 +85,29 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
+          window.location.href = "/hidden/2025/01/01/wildflowers.html";
+        
+      },
+    },{id: "post-snow-days",
+      
+        title: "Snow Days",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
           window.location.href = "/hidden/2025/01/01/snow-days.html";
+        
+      },
+    },{id: "post-snow-days",
+      
+        title: "Snow Days",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2025/01/01/latte-art.html";
         
       },
     },{id: "post-alpine-rafting",
@@ -220,6 +242,17 @@ ninja.data = [{
           window.location.href = "/snowboarding/2024/01/01/cooke-2023.html";
         
       },
+    },{id: "post-leavenworth-2024",
+      
+        title: "Leavenworth 2024",
+      
+      description: "Dragons of Eden, W Ridge of Prusik, and other local climbs",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2024/01/01/leavenworth-2024.html";
+        
+      },
     },{id: "post-index-2024",
       
         title: "Index 2024",
@@ -345,22 +378,11 @@ ninja.data = [{
       
         title: "Leavenworth 2023",
       
-      description: "A year of local alpine climbing and cragging",
+      description: "Solid Gold, the Valkyrie, and other local rock climbs",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/hidden/2023/01/01/leavenworth-2024.html";
-        
-      },
-    },{id: "post-leavenworth-2023",
-      
-        title: "Leavenworth 2023",
-      
-      description: "A year of local alpine climbing and cragging",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2023/01/01/leavenworth-2023.html";
+          window.location.href = "/climbing/2023/01/01/leavenworth-2023.html";
         
       },
     },{id: "post-index-2023",
@@ -372,17 +394,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/hidden/2023/01/01/index-2023.html";
-        
-      },
-    },{id: "post-leavenworth-2023",
-      
-        title: "Leavenworth 2023",
-      
-      description: "A year of local alpine climbing and cragging",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2023/01/01/leavenworth-2022.html";
         
       },
     },{id: "post-index-2023",
@@ -438,6 +449,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/snowboarding/2022/01/02/cabin-creek.html";
+        
+      },
+    },{id: "post-leavenworth-2022",
+      
+        title: "Leavenworth 2022",
+      
+      description: "Acid Baby, the Hitchhiker, Bergner-Stanley, and other local adventures",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2022/01/01/leavenworth-2022.html";
         
       },
     },{id: "post-cooke-city-2021",
