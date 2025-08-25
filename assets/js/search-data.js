@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Squamish 2025",
       
-      description: "3 days of climbing in Squamish, BC",
+      description: "A couple long weekends in Squamish, BC",
       section: "Posts",
       handler: () => {
         

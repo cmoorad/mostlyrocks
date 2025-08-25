@@ -77,7 +77,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const images = document.querySelectorAll("#markdown-content img");
 
-  for (const img of images) {
+  for (const [index, img] of images.entries()) {
     try {
       const url = new URL(img.src);
       if (!url.hostname.includes("images.mostlyrocks.com")) continue;
@@ -91,7 +91,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const fallback = `${url.origin}${folder}/${filename}?v=${v}`;
 
       img.setAttribute("src", src1200);
-      img.setAttribute("loading", "lazy");
+      
+      // Only add lazy loading for images after the first 3
+      if (index >= 3) {
+        img.setAttribute("loading", "lazy");
+      }
 
       img.onerror = () => {
         console.warn(`Thumbnail not found, falling back: ${src1200}`);
