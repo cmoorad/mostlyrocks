@@ -11,7 +11,7 @@ images:
 
 ---
 
-I recall it was -13º on this New Years Eve spent in a sieve of a cabin. Ben, Jack, Claire, and I had fun skiing cold smoke the next day — and thankfully we kept all our digits!
+I recall it was -13º on this New Years Eve spent in a sieve of a cabin. Ben, Jack, Claire, and I had fun skiing cold smoke the next day — and thankfully we all kept our digits!
 
 ---
 
