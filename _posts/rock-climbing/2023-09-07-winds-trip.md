@@ -12,7 +12,7 @@ images:
 
 ---
 
-10 days of late summer climbing above the high altitude meadows of the Wind River Range with one of my best friends, Jack.
+10 days of late summer climbing in the high altitude meadows of the Wind River Range with one of my best friends, Jack.
 
 ---
 
