@@ -29,7 +29,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
 
 <div align=center>
 
-⚠️ Images may take some time to load. Thanks for your patience while I find a fix. ⚠️
+⚠️ Images may take some time to load — there are over 100 images on this one web page. Thanks for your patience while I find a fix. ⚠️
 
 </div>
 
