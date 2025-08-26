@@ -1780,6 +1780,11 @@ html body .spl-title {
       &.thumb-pos-80p {
         object-position: center 80%;
       }
+
+      &.thumb-pos-90p {
+        object-position: center 90%;
+      }
+
     }
     
     /* Mobile-specific adjustments */
@@ -1789,6 +1794,8 @@ html body .spl-title {
       height: 200px !important;
       .card-img {
         object-position: center 40%; /* Default mobile vertical position */
+
+
       }
     }
 
