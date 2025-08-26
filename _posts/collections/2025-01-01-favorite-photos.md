@@ -21,17 +21,6 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
 
 </div>
 
----
-
-<br>
-
----
-
-<div align=center>
-
-⚠️ Images may take some time to load — there are over 100 images on this one web page. Thanks for your patience while I find a fix. ⚠️
-
-</div>
 
 ---
 
@@ -65,12 +54,12 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/43.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/43.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/43.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/50.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/50.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/50.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -155,7 +144,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/54.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/54.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/54.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -165,7 +154,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/68.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/68.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/68.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -180,7 +169,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/89.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/89.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/89.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -215,7 +204,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/23.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/23.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/23.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -230,7 +219,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/44.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/44.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/44.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -240,7 +229,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/58.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/58.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/58.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -250,7 +239,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/72.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/72.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/72.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -360,7 +349,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/111.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/111.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/111.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -375,7 +364,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/17.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/17.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/17.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -440,7 +429,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/108.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/108.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/108.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -460,7 +449,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/21.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/21.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/21.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -500,7 +489,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/70.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/70.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/70.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
@@ -590,7 +579,7 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/81.jpeg">
-            <img width=750 src="https://images.mostlyrocks.com/collections/tops/81.jpeg" />
+            <img width=500 src="https://images.mostlyrocks.com/collections/tops/81.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
