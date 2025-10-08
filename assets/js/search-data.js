@@ -55,17 +55,6 @@ ninja.data = [{
           window.location.href = "/climbing/2025/07/21/squamish.html";
         
       },
-    },{id: "post-washington-2025",
-      
-        title: "Washington 2025",
-      
-      description: "Snowboarding in Washington state in 2025.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/snowboarding/2025/07/01/washington-2025.html";
-        
-      },
     },{id: "post-yosemite-2025",
       
         title: "Yosemite 2025",
@@ -75,6 +64,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2025/05/23/yosemite.html";
+        
+      },
+    },{id: "post-washington-2025",
+      
+        title: "Washington 2025",
+      
+      description: "Snowboarding in Washington state in 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2025/05/01/washington-2025.html";
         
       },
     },{id: "post-snow-days",
@@ -246,7 +246,7 @@ ninja.data = [{
       
         title: "Leavenworth 2024",
       
-      description: "Dragons of Eden, W Ridge of Prusik, and other local climbs",
+      description: "Dragons of Eden, W Face of CBR, and other local climbs",
       section: "Posts",
       handler: () => {
         
