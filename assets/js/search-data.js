@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Squamish 2025",
       
-      description: "A couple long weekends in Squamish, BC",
+      description: "Two long weekends in Squamish, BC",
       section: "Posts",
       handler: () => {
         
@@ -66,9 +66,9 @@ ninja.data = [{
           window.location.href = "/snowboarding/2025/07/01/washington-2025.html";
         
       },
-    },{id: "post-yosemite-valley-2025",
+    },{id: "post-yosemite-2025",
       
-        title: "Yosemite Valley 2025",
+        title: "Yosemite 2025",
       
       description: "10 days of climbing in Yosemite, CA",
       section: "Posts",
@@ -187,9 +187,9 @@ ninja.data = [{
           window.location.href = "/sample-posts/2024/05/01/tabs.html";
         
       },
-    },{id: "post-cochamó-valley-2024",
+    },{id: "post-cochamó-2024",
       
-        title: "Cochamó Valley 2024",
+        title: "Cochamó 2024",
       
       description: "3 weeks of climbing in Cochamó, Chile",
       section: "Posts",
