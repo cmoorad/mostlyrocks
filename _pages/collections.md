@@ -19,7 +19,7 @@ nav_order: 4
 <div class="post">
   <div class="header-bar collections-header">
     <h1>Collections</h1>
-    <h2>Collections of places, people, and activities.</h2>
+    <h2>Collections of photos, places, and stories.</h2>
   </div>
 
 <br>
