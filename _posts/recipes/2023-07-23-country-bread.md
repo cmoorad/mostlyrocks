@@ -3,7 +3,7 @@ layout: post
 title: Country Bread
 date: 2023-07-23 01:59:00
 description: Pan de Champagne, a rustic French sourdough loaf
-thumbnail: https://images.mostlyrocks.com/recipes/country-bread/thumbs/1200/2.jpeg
+thumbnail: https://images.mostlyrocks.com/recipes/country-bread/thumbs/1200/7.jpeg
 categories: recipes
 thumbnail_position: top
 images:
@@ -42,7 +42,10 @@ For dinner, start around noon the day before. The bread will likely take up to 2
 
 ## Ingredients
 
-<i>Here are some quick-reference options for different sizes. You can use baker's ratios to make any size. If you want to make two loaves you can double the recipe and split them at step 5 — just be aware that the ingredients will rise to 6x their original size.</i>
+<i>Below are some quick-reference options for different sizes. You can use baker's ratios to make any size. If you want to make two loaves you can double the recipe and split them at step 5 — just be aware that the ingredients will rise to 6x their original size, so you may need a very large bowl.
+
+<i>I use King Arthur Flour starter which you can buy online. It's a 500-year-old starter that activates quickly and imparts a great flavor. I also highly recommend using KAF bread flour as it has a higher % protein than most bread flours, enabling more structure in your dough which results in a better crumb.
+
 
 ### Option 1 (standard)
 - 425 g bread flour  
