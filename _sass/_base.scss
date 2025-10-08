@@ -437,6 +437,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Navigation-specific container width
+.navbar .container {
+  max-width: 1600px !important; // Match your desired width
+}
+
 // Social (bottom)
 
 .social {
