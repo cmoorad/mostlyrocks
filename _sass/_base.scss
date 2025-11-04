@@ -2169,10 +2169,11 @@ body.home-page .container-wide.mt-5 {
 
 /* Remove spotlight lightbox top bar/border */
 #spotlight .spl-header,
-#spotlight .spl-top-bar,
-#spotlight .spl-controls-top {
+#spotlight .spl-top-bar {
   display: none !important;
 }
+
+/* , #spotlight .spl-controls-top */
 
 /* Hide spotlight navigation/info bar */
 #spotlight .spl-footer {
