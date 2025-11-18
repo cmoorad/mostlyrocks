@@ -2164,38 +2164,4 @@ body.home-page .container-wide.mt-5 {
     height: 48px;
 }
 
-
-// Add this after your existing spotlight styles
-
-/* Remove spotlight lightbox top bar/border */
-#spotlight .spl-header,
-#spotlight .spl-top-bar {
-  display: none !important;
-}
-
-/* , #spotlight .spl-controls-top */
-
-/* Hide spotlight navigation/info bar */
-#spotlight .spl-footer {
-  display: none !important;
-}
-
-/* Remove any top padding/margin from spotlight container */
-#spotlight {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* Remove borders from spotlight image container */
-#spotlight .spl-image,
-#spotlight .spl-image-container {
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/* Make sure the image takes full space */
-#spotlight img {
-  border: none !important;
-  box-shadow: none !important;
-}
+// Collapsed and commented out spotlight styles /* #spotlight .spl-header, #spotlight .spl-top-bar { display: none !important; } #spotlight .spl-footer { display: none !important; } #spotlight { padding-top: 0 !important; margin-top: 0 !important; } #spotlight .spl-image, #spotlight .spl-image-container { border: none !important; padding: 0 !important; margin: 0 !important; } #spotlight img { border: none !important; box-shadow: none !important; } */
