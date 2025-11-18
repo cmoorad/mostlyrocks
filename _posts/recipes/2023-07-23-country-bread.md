@@ -44,7 +44,7 @@ For dinner, start around noon the day before. The bread will likely take up to 2
 
 <i>Below are some quick-reference options for different sizes. You can use baker's ratios to make any size. If you want to make two loaves you can double the recipe and split them at step 5 — just be aware that the ingredients will rise to 6x their original size, so you may need a very large bowl.
 
-<i>I use King Arthur Flour starter which you can buy online. It's a 500-year-old starter that activates quickly and imparts a great flavor. I also highly recommend using KAF bread flour as it has a higher % protein than most bread flours, enabling more structure in your dough which results in a better crumb.
+<i>I use King Arthur Flour starter which you can buy online. It's a 250-year-old starter that activates quickly and imparts a great flavor. I also highly recommend using KAF bread flour as it has a higher % protein than most bread flours, enabling more structure in your dough which results in a better crumb.
 
 
 ### Option 1 (standard)
@@ -75,11 +75,11 @@ For dinner, start around noon the day before. The bread will likely take up to 2
 1. Combine all ingredients in a large bowl. Mix by hand until flour is hydrated. Cover with plastic wrap and rest for 15 minutes.
 2. Wet your hand, fold all 4 sides of the dough toward the center, then cover and rest for 15 minutes.
 3. Repeat step 2 three more times (4 folds total), wetting your hand each time.
-4. Leave dough seam-side down at room temperature to rise for up to 24 hours. Mark the height; it should double or more.
-5. Turn dough onto a floured surface. Gently form a round by folding four sides inward. Flip seam-side down and rest for 10 minutes, lightly covered.
-6. Dust a banneton generously with whole wheat flour.
-7. Shape the dough into a batard: flip the round over, tug the dough outward slightly, fold the left side over the center, then the right side over that. Roll up from the bottom and place seam-side up in the banneton. Cover and refrigerate.
-8. Refrigerate for 4 to 12 hours (or up to 48) until proofed.
+4. Leave dough at room temperature to rise for up to 48 hours. It should double or more and appear bubbly like the photo above.
+5. Turn dough onto a floured surface (I use wheat flour from here on). Gently form a round by folding four sides inward. Flip seam-side down and rest for 10 minutes, lightly covered with the same plastic wrap.
+6. Dust a banneton generously with whole wheat flour. If you don't have a banneton you can use a colander with a kitchen towel.
+7. Shape the dough into a batard: flip the round seam side up, tug the dough outward slightly on the left side, fold the left side over the center, then tug the right side over that. Roll up from the bottom (creating tension in the surface) and place seam-side UP in the banneton. Cover and refrigerate.
+8. Refrigerate for 2 to 12 hours (or up to 48) until proofed. Use the poke proof test.
 9. Preheat oven to 500ºF with Dutch oven inside.
 10. Turn out loaf onto parchment paper (seam side down), slash gently (not too deep), and place in Dutch oven.
 11. Bake covered (lid on) at 500ºF for 20 minutes.

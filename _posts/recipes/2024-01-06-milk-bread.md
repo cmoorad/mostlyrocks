@@ -23,6 +23,8 @@ For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours o
     ⚠️ <b>I would not try to do this recipe without a stand mixer. You would be kneading dough for 1 hour.</b> ⚠️
 </div>
 
+<br>
+
 - Tangzhong: 2 + 10 min (prep + cooling)  
 - Mixing & kneading: 30ish min  
 - Bulk rise: 30–90 min (plus overnight optional)  
@@ -48,9 +50,7 @@ For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours o
 
 ## Ingredients
 
-<i>Here are two variations — one standard and one richer (brioche-style). You can shape these into loaves or rolls.</i>
-
-### Tangzhong (same for both)
+### Tangzhong
 - ¾ cup (180 grams) milk
 - 4 (37g) tbsp King Arthur bread flour
 
@@ -75,21 +75,21 @@ Garlic butter topping:
 
 ## Instructions
 1. **Make the tangzhong:**  
-    Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, stirring constantly, until thick like pudding (about 2 minutes). Scrape into stand mixer bowl and let cool (you can throw it in the freezer for 10 min to speed up).
+    Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, stirring constantly, until thick like pudding (about 2 minutes). Scrape into stand mixer bowl and  cool completely (you can throw it in the freezer for 10 min if in a hurry).
 
 2. **Make the dough:**  
-    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Add the butter and continue mixing for another 12 minutes, until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
+    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Add the butter one tbsp at a time and continue mixing for another 12 minutes, until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
 
 3. **First rise:**  
     After the dough has enough structure to pass window pane test, take it out, fold it into a tight ball, and place back in bowl seam-down. Cover the bowl and rest dough at room temp for 30 minutes and then place in the fridge overnight. If baking same-day, let rise for 1.5 hours or until doubled (can take up to 4 hours!).
 
 4. **Shape:**  
-    Butter a 9-10” pan. Deflate dough and cut into 10 pieces, rolling each into a tight ball and place into pan, cover and let rise for 2 hours (or until doubled, do "poke" proof test).
+    Butter a 9-10” pan. Deflate dough and cut into 10 even pieces, rolling each into a tight ball (use the counter to create surface tension). Place all the balls into buttered pan, cover and let rise for 2 hours (or until doubled, do "poke" proof test).
 
-6. **Egg wash & bake:**  
+5. **Egg wash & bake:**  
     Preheat oven to 350ºF. Beat 1 egg and brush rolls or loaves. Bake 25–30 min until golden and 190ºF inside.
 
-7. **Optional garlic-dill finish:**  
+6. **Optional garlic-dill finish:**  
     Melt 2 Tbsp butter with garlic, garlic powder, and salt. Remove from heat, stir in dill, and brush over rolls while warm.
 
 
