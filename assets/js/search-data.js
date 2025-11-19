@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/climbing/2025/07/21/squamish.html";
         
       },
+    },{id: "post-squamish-2025",
+      
+        title: "Squamish 2025",
+      
+      description: "Two long weekends in Squamish, BC",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/hidden/2025/07/21/squamish-copy.html";
+        
+      },
     },{id: "post-yosemite-2025",
       
         title: "Yosemite 2025",
