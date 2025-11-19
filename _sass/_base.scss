@@ -2165,3 +2165,21 @@ body.home-page .container-wide.mt-5 {
 }
 
 // Collapsed and commented out spotlight styles /* #spotlight .spl-header, #spotlight .spl-top-bar { display: none !important; } #spotlight .spl-footer { display: none !important; } #spotlight { padding-top: 0 !important; margin-top: 0 !important; } #spotlight .spl-image, #spotlight .spl-image-container { border: none !important; padding: 0 !important; margin: 0 !important; } #spotlight img { border: none !important; box-shadow: none !important; } */
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; /* Ensures it doesn't exceed the container's width */
+  background: #000; /* Optional: Adds a black background */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

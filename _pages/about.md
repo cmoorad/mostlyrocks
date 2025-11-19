@@ -7,7 +7,7 @@ nav_order: 1
 
 profile:
   align: left
-  image: https://images.mostlyrocks.com/about/thumbs/1200/32.jpeg
+  image: https://images.mostlyrocks.com/about/thumbs/1200/100.jpeg
   image_circular: false
 
 # Photo gallery images
@@ -88,7 +88,7 @@ Hi — I'm Chris. I live in Leavenworth, WA and I created this website to share 
 Some friends took me rock climbing for the first time in 2016 at Rumney, NH. I fell in love with climbing a few years later at Index, WA.
 
 ### Snowboarding
-I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite some physiological challenges it presents.
+I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite some physiological challenges I have with skinning.
 
 ### Website
 I am not a software engineer, but I've been able to build this website without relying on a third party thanks to AI. I used the [Al-Folio Jekyll template](https://github.com/alshedivat/al-folio) to get started, and I use S3 with Cloudfront to serve my images.
