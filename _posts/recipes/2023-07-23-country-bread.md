@@ -17,7 +17,7 @@ Country Bread or Pain de Campagne is a traditional French rustic loaf made with 
 ---
 
 Makes: 1 loaf  
-For dinner, start around noon the day before. The bread will likely take up to 20 hours to rise.
+For dinner, start around noon the day before. The bread can take up to 20 hours to rise. Once it took 2 days!
 
 - Folding: 1 hour  
 - Shaping: 15 min
@@ -31,7 +31,7 @@ For dinner, start around noon the day before. The bread will likely take up to 2
         <a class="spotlight" href="https://images.mostlyrocks.com/recipes/country-bread/6.jpeg">
             <img width=400 src="https://images.mostlyrocks.com/recipes/country-bread/6.jpeg" />
         </a>
-        <a class="spotlight" href="https://images.mostlyrocks.com/recipes/country-bread/6.jpeg">
+        <a class="spotlight" href="https://images.mostlyrocks.com/recipes/country-bread/1.jpeg">
             <img width=400 src="https://images.mostlyrocks.com/recipes/country-bread/1.jpeg" />
         </a>
     </div>
