@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Gallery
-date: 2025-01-01 23:59:00
+date: 2025-12-21 23:59:00
 description: Best shots across the years
 thumbnail: https://images.mostlyrocks.com/2025/squamish/thumbs/1200/9.jpeg
 categories: collections

@@ -2183,3 +2183,22 @@ body.home-page .container-wide.mt-5 {
   width: 100%;
   height: 100%;
 }
+
+// filepath: /Users/christophermoorad/mostlyrocks/_sass/_base.scss
+.media-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Add spacing between items */
+}
+
+.media-row > * {
+    flex: 0 0 auto; /* Prevent items from stretching */
+}
+
+@media (max-width: 768px) {
+    .media-row {
+        flex-direction: column; /* Stack items on smaller screens */
+    }
+}
