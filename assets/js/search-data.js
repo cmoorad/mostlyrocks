@@ -44,26 +44,48 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-squamish-2025",
+            },{id: "post-the-gallery",
       
-        title: "Squamish 2025",
+        title: "The Gallery",
       
-      description: "Two long weekends in Squamish, BC",
+      description: "Best shots across the years",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/climbing/2025/07/21/squamish.html";
+          window.location.href = "/collections/2025/12/21/favorite-photos.html";
+        
+      },
+    },{id: "post-indian-creek-2025",
+      
+        title: "Indian Creek 2025",
+      
+      description: "One week in Indian Creek, UT",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/11/02/indian-creek.html";
+        
+      },
+    },{id: "post-sardinia-amp-chamonix-2025",
+      
+        title: "Sardinia &amp; Chamonix 2025",
+      
+      description: "2 weeks weddings, feasting, and climbing in Italy and France",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/09/18/europe.html";
         
       },
     },{id: "post-squamish-2025",
       
         title: "Squamish 2025",
       
-      description: "Two long weekends in Squamish, BC",
+      description: "6 days in Squamish, BC",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/hidden/2025/07/21/squamish-copy.html";
+          window.location.href = "/climbing/2025/07/21/squamish.html";
         
       },
     },{id: "post-yosemite-2025",
@@ -132,15 +154,15 @@ ninja.data = [{
           window.location.href = "/hidden/2025/01/01/alpine-rafting.html";
         
       },
-    },{id: "post-the-gallery",
+    },{id: "post-alpine-lake-packrafting",
       
-        title: "The Gallery",
+        title: "Alpine Lake Packrafting",
       
-      description: "Best shots across the years",
+      description: "Pictures from packrafting in various alpine lakes.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/collections/2025/01/01/favorite-photos.html";
+          window.location.href = "/hidden/2025/01/01/alpine-packrafting.html";
         
       },
     },{id: "post-a-post-with-image-galleries",
