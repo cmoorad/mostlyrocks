@@ -59,7 +59,7 @@ ninja.data = [{
       
         title: "Indian Creek 2025",
       
-      description: "One week in Indian Creek, UT",
+      description: "1 week in Indian Creek, UT",
       section: "Posts",
       handler: () => {
         
@@ -70,7 +70,7 @@ ninja.data = [{
       
         title: "Sardinia &amp; Chamonix 2025",
       
-      description: "2 weeks weddings, feasting, and climbing in Italy and France",
+      description: "2 weeks of weddings and climbing in Italy and France",
       section: "Posts",
       handler: () => {
         
