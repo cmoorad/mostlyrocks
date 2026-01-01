@@ -2,7 +2,7 @@
 layout: post
 title: Indian Creek 2025
 date: 2025-11-02 01:59:00
-description: One week in Indian Creek, UT
+description: 1 week in Indian Creek, UT
 thumbnail: https://images.mostlyrocks.com/2025/indian-creek/thumbs/1200/34.jpeg
 thumbnail_position: center
 categories: climbing
@@ -42,7 +42,7 @@ Back to the Creek! We only spent a week there this time but we made the most of 
     <br><br>
     <hr>
     <h2><b>Pistol Whipped</b></h2>
-    On our first day we went to Pistol Whipped. I warmed up on Spaghetti Western which turns out isn't a warm up, but it may be my favorite climb in the creek. The climbing was varied and the middle section featured a 30-foot, overhanging hand crack! We also climbed Revenge of the Rock Gods and Jolly Rancher, the latter of which was well deserving of the hype and fortunately reached with our 78.5 meter rope.
+    On our first day we went to Pistol Whipped. I warmed up on Spaghetti Western which turns out isn't a warm up, but it may be my favorite climb in the creek. The climbing was varied with a middle section that featured a 30-foot, overhanging hand crack! We also climbed Revenge of the Rock Gods and Jolly Rancher, the latter of which was well deserving of the hype and fortunately reached with our 78.5 meter rope.
     <br><br>
         <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/5.jpeg">
             <img width="815" src="https://images.mostlyrocks.com/2025/indian-creek/5.jpeg" />
@@ -185,7 +185,7 @@ Back to the Creek! We only spent a week there this time but we made the most of 
     <br><br>
     <hr>
     <h2><b>Optimator</b></h2>
-    I really wanted to go back to Optimator to send Soulfire and Annunaki and maybe climb Neat. Even though we made it up early, the only party that beat us was, of course, already on Neat — and putting out bad vibes besides. I warmed up on Soulfire and fell at the top again (classic). The crowds quickly thickened and lots of people aided up Annunaki while I sat at the base waiting for a turn. I even climbed Lady Pillar while waiting. Not exactly the experience I wanted, but in the end I sent Annunaki without any trouble which made it feel worth it, if barely. I then climbed Caseys and belayed Jack T on Cobweb Splitter and Hayutake after yet more shennanigans with the crowds. This was a great reminder that the scene in the creek can be overwhelming and it's generally worth going to less-popular crags when you can. I'll always love Optimator, but I probably won't be going back soon!
+    I really wanted to go back to Optimator to send Soulfire and Annunaki and maybe climb Neat. Even though we made it up early, the only party that beat us was, of course, already on Neat — and putting out bad vibes besides. I warmed up on Soulfire and fell at the top again (classic). The crowds quickly thickened and lots of people aided up Annunaki while I sat at the base waiting for a redpoint attempt. I even climbed Lady Pillar while waiting. Not exactly the experience I wanted, but in the end I sent Annunaki without any trouble which made it feel worth it, if barely. I then climbed Caseys and belayed Jack T on Cobweb Splitter and Hayutake after yet more shennanigans with the crowds. This was a great reminder that the scene in the creek can be overwhelming and it's generally worth going to less-popular crags when you can. I'll always love Optimator, but I probably won't be going back soon!
     <br><br>
     <div class="image-row">
         <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/33.jpeg">
@@ -224,7 +224,7 @@ Back to the Creek! We only spent a week there this time but we made the most of 
         <img width="815" src="https://images.mostlyrocks.com/2025/indian-creek/39.jpeg" />
     </a>
     <br>
-    18 hours later — with red sand in our shoes and sun in our hearts — and we landed back in wet, dark Washington! Our hopes that the snows would be soon to follow were shortly squandered and left us swearing to a longer trip next year!
+    18 hours later — with red sand in our shoes and desert sun in our hearts — and we landed back in wet, dark Washington! Our hopes that the snows would be soon to follow were shortly squandered and left us swearing to a longer trip next year!$$
     <br><br>
 </div>
 </div>
