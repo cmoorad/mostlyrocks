@@ -23,7 +23,7 @@ Back to the Creek! We only spent a week there this time but we made the most of 
 <div class="spotlight-group">
     <br>
     <h2><b>Beginnings</b></h2>
-    With the rack secured, cams labeled, and a promising weather forecast, all that was left to do was drive 18 hours! Fortunately we got to break it up by seeing Jack's sister's new house in Ketchum, ID.
+    With the rack secured, cams labeled, and a promising weather forecast, all that was left to do was drive 18 hours! Fortunately we got to break it up by seeing Jack's sister in Ketchum, ID.
     <br><br>
     <div class="image-row">
         <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/1.jpeg">

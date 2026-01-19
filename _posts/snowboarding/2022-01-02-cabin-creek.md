@@ -19,42 +19,43 @@ I recall it was -13º on this New Years Eve spent in a sieve of a cabin. Ben, J
 <!-- Group 1 -->
 <div class="spotlight-group">
 <div align=center>
+<div class="image-row">
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/1.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/1.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/1.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/2.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/2.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/2.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/3.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/3.jpeg" />
+        <img width=565 src="https://images.mostlyrocks.com/2021/cabin-creek/3.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/4.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/4.jpeg" />
+        <img width=319 src="https://images.mostlyrocks.com/2021/cabin-creek/4.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/5.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/5.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/5.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/6.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/6.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/6.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/7.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/7.jpeg" />
+        <img width=565 src="https://images.mostlyrocks.com/2021/cabin-creek/7.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/8.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/8.jpeg" />
+        <img width=319 src="https://images.mostlyrocks.com/2021/cabin-creek/8.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/9.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/9.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/9.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/10.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/10.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/10.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/11.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/11.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/11.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/12.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/12.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/12.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2021/cabin-creek/13.jpeg">
-        <img width=800 src="https://images.mostlyrocks.com/2021/cabin-creek/13.jpeg" />
+        <img width=442 src="https://images.mostlyrocks.com/2021/cabin-creek/13.jpeg" />
     </a>

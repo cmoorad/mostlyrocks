@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The Gallery
+title: Gallery
 date: 2025-12-21 23:59:00
-description: Best shots across the years
+description: Some of my favorite shots across the years
 thumbnail: https://images.mostlyrocks.com/2025/squamish/thumbs/1200/9.jpeg
 categories: collections
 images:
@@ -11,11 +11,11 @@ images:
 
 ---
 
-Mostly rocks, sometimes not — here are my favorite photos of people, places, and landscapes that inspire me.
+Mostly rocks, sometimes not — here are my favorite photos of people, places, and landscapes.
 
 <div align=center>
 
-💡 You can click into images for a spotlight view 💡
+💡 Recommended: click into images for a spotlight view 💡
 
 <br>
 
@@ -225,11 +225,6 @@ Mostly rocks, sometimes not — here are my favorite photos of people, places, a
     <div class="spacer-triple"></div>
         <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/51.jpeg">
             <img width=750 src="https://images.mostlyrocks.com/collections/tops/51.jpeg" />
-        </a>
-        <div class="spacer-triple"></div>
-    <div class="spacer-triple"></div>
-        <a class="spotlight" href="https://images.mostlyrocks.com/collections/tops/58.jpeg">
-            <img width=500 src="https://images.mostlyrocks.com/collections/tops/58.jpeg" />
         </a>
         <div class="spacer-triple"></div>
     <div class="spacer-triple"></div>
