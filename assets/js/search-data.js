@@ -44,11 +44,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "post-the-gallery",
+            },{id: "post-gallery",
       
-        title: "The Gallery",
+        title: "Gallery",
       
-      description: "Best shots across the years",
+      description: "Some of my favorite shots across the years",
       section: "Posts",
       handler: () => {
         
