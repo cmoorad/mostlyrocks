@@ -154,6 +154,17 @@ ninja.data = [{
           window.location.href = "/hidden/2025/01/01/alpine-rafting.html";
         
       },
+    },{id: "post-leavenworth-2025",
+      
+        title: "Leavenworth 2025",
+      
+      description: "The Tempest, Liberty Crack, and other local adventures",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/01/01/leavenworth-2025.html";
+        
+      },
     },{id: "post-alpine-lake-packrafting",
       
         title: "Alpine Lake Packrafting",
