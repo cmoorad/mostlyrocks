@@ -165,6 +165,17 @@ ninja.data = [{
           window.location.href = "/climbing/2025/01/01/leavenworth-2025.html";
         
       },
+    },{id: "post-index-2025",
+      
+        title: "Index 2025",
+      
+      description: "Climbing at Index, WA in 2025",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/01/01/index-2025.html";
+        
+      },
     },{id: "post-alpine-lake-packrafting",
       
         title: "Alpine Lake Packrafting",
