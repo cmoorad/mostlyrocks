@@ -110,6 +110,17 @@ ninja.data = [{
           window.location.href = "/snowboarding/2025/05/01/washington-2025.html";
         
       },
+    },{id: "post-red-rock-bishop-2025",
+      
+        title: "Red Rock + Bishop 2025",
+      
+      description: "1 week of climbing at Red Rocks, NV and Bishop, CA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2025/03/29/red-rock-and-bishop-2025.html";
+        
+      },
     },{id: "post-snow-days",
       
         title: "Snow Days",
