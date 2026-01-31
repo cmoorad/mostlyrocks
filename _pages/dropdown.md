@@ -8,9 +8,15 @@ children:
   - title: Snowboarding
     permalink: /snowboarding/
   - title: divider
-  - title: Collections
-    permalink: /collections/
+  - title: Packrafting
+    permalink: /packrafting/
   - title: divider
   - title: Recipes
     permalink: /recipes/
+  - title: divider
+  - title: Gardening
+    permalink: /gardening/
+  - title: divider
+  - title: Collections
+    permalink: /collections/
 ---

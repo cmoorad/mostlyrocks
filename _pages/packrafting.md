@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /collections/
-title: Collections
+permalink: /packrafting/
+title: Packrafting
 nav: false
-nav_order: 10
+nav_order: 4
 #pagination:
  # enabled: true
   #collection: posts
@@ -17,16 +17,16 @@ nav_order: 10
 ---
 
 <div class="post">
-  <div class="header-bar collections-header">
-    <h1>Collections</h1>
-    <h2>Collections of photos, places, and stories.</h2>
+  <div class="header-bar packrafting-header">
+    <h1>Coming soon!</h1>
+    <h2>A collection of packrafting trips and photos.</h2>
   </div>
 
 <br>
 
   <ul class="post-list">
 
-  {% assign postlist = site.categories.collections %}
+  {% assign postlist = site.categories.packrafting %}
 
 
     {% for post in postlist %}
