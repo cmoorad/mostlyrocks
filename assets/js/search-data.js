@@ -30,12 +30,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
-            },{id: "dropdown-collections",
-              title: "Collections",
+            },{id: "dropdown-packrafting",
+              title: "Packrafting",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/collections/";
+                window.location.href = "/packrafting/";
               },
             },{id: "dropdown-recipes",
               title: "Recipes",
@@ -43,6 +43,20 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/recipes/";
+              },
+            },{id: "dropdown-gardening",
+              title: "Gardening",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/gardening/";
+              },
+            },{id: "dropdown-collections",
+              title: "Collections",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/collections/";
               },
             },{id: "post-gallery",
       
@@ -119,6 +133,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2025/03/29/red-rock-and-bishop-2025.html";
+        
+      },
+    },{id: "post-gardening-2025",
+      
+        title: "Gardening 2025",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/gardening/2025/01/01/gardening-2025.html";
         
       },
     },{id: "post-snow-days",
