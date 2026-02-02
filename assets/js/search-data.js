@@ -30,12 +30,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
-            },{id: "dropdown-packrafting",
-              title: "Packrafting",
+            },{id: "dropdown-backrafting",
+              title: "Backrafting",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/packrafting/";
+                window.location.href = "/backrafting/";
               },
             },{id: "dropdown-recipes",
               title: "Recipes",
@@ -89,6 +89,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2025/09/18/europe.html";
+        
+      },
+    },{id: "post-panorama-lake",
+      
+        title: "Panorama Lake",
+      
+      description: "A day trip to raft this cobalt-blue lake",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2025/08/10/panorama.html";
         
       },
     },{id: "post-squamish-2025",
