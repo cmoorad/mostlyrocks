@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /packrafting/
-title: Packrafting
+permalink: /backrafting/
+title: Backrafting
 nav: false
 nav_order: 4
 #pagination:
@@ -17,16 +17,16 @@ nav_order: 4
 ---
 
 <div class="post">
-  <div class="header-bar packrafting-header">
+  <div class="header-bar backrafting-header">
     <h1>Coming soon!</h1>
-    <h2>A collection of packrafting trips and photos.</h2>
+    <h2>A collection of backcountry packrafting trips and photos.</h2>
   </div>
 
 <br>
 
   <ul class="post-list">
 
-  {% assign postlist = site.categories.packrafting %}
+  {% assign postlist = site.categories.backrafting %}
 
 
     {% for post in postlist %}
