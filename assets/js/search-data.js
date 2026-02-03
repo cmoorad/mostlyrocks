@@ -95,7 +95,7 @@ ninja.data = [{
       
         title: "Panorama Lake",
       
-      description: "A day trip to raft this cobalt-blue lake",
+      description: "A day trip to raft the lake",
       section: "Posts",
       handler: () => {
         
@@ -256,6 +256,17 @@ ninja.data = [{
           window.location.href = "/climbing/2024/09/10/hulk-trip.html";
         
       },
+    },{id: "post-circle-lake",
+      
+        title: "Circle Lake",
+      
+      description: "2 nights on Mt. Daniel",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2024/08/10/circle.html";
+        
+      },
     },{id: "post-chamonix-2024",
       
         title: "Chamonix 2024",
@@ -265,6 +276,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2024/07/31/chamonix.html";
+        
+      },
+    },{id: "post-lake-victoria",
+      
+        title: "Lake Victoria",
+      
+      description: "A day trip to raft the lake",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2024/07/20/victoria.html";
         
       },
     },{id: "post-washington-2024",
@@ -397,6 +419,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/recipes/2023/07/23/country-bread.html";
+        
+      },
+    },{id: "post-stiletto-lake",
+      
+        title: "Stiletto Lake",
+      
+      description: "2 nights in the North Cascades",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2023/07/15/stiletto.html";
         
       },
     },{id: "post-washington-2023",
