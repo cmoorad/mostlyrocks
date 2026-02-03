@@ -1605,7 +1605,7 @@ figure.cover {
 
 
 .backrafting-header {
-  background-image: url(https://images.mostlyrocks.com/gardening/2025/thumbs/1200/6.jpeg); // update path as needed
+  background-image: url(https://images.mostlyrocks.com/backrafting/nameless.jpeg); // update path as needed
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2037,7 +2037,7 @@ body.home-page .container-wide.mt-5 {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjusted min-width to 400px */
   gap: 0; // no spacing between images
   margin: 0;
   padding: 0;

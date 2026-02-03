@@ -27,6 +27,18 @@ nav: false
     <img src="https://images.mostlyrocks.com/home/snowboarding.jpeg" alt="Snowboarding">
     <div class="overlay-text">Snowboarding</div>
   </a>
+  <a href="/backrafting" class="grid-item">
+    <img src="https://images.mostlyrocks.com/backrafting/nameless.jpeg" alt="Backrafting">
+    <div class="overlay-text">Backrafting</div>
+  </a>
+  <a href="/gardening" class="grid-item">
+    <img src="https://images.mostlyrocks.com/gardening/2025/thumbs/1200/6.jpeg" alt="Gardening">
+    <div class="overlay-text">Gardening</div>
+  </a>
+  <a href="/recipes" class="grid-item">
+    <img src="https://images.mostlyrocks.com/home/recipes.jpeg" alt="Recipes">
+    <div class="overlay-text">Recipes</div>
+  </a>
   <a href="/about" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/about.jpeg" alt="About">
     <div class="overlay-text">About</div>

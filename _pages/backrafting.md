@@ -18,7 +18,7 @@ nav_order: 4
 
 <div class="post">
   <div class="header-bar backrafting-header">
-    <h1>Coming soon!</h1>
+    <h1>Backrafting</h1>
     <h2>A collection of backcountry packrafting trips and photos.</h2>
   </div>
 
