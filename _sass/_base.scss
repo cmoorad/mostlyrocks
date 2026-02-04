@@ -2178,6 +2178,10 @@ body.home-page .container-wide.mt-5 {
   }
 }
 
+.photos-section .spotlight-group .spotlight[data-align] img {
+    vertical-align: unset !important;
+}
+
 .image-row {
   display: flex;
   flex-wrap: wrap;
