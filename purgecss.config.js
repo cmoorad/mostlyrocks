@@ -5,7 +5,7 @@ module.exports = {
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
     {
-      standard: [/^spotlight\[data-align=".*"\]/], // Preserve all data-align rules
+      standard: [/^spotlight\[data-align=".*"\]/], // Corrected escaping for regex
     },
   ],
 };
