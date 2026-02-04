@@ -4,6 +4,7 @@ module.exports = {
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
-    /^spotlight\[data-align=".*"\]/, // Corrected safelist to use regex directly
+    /^spotlight\[data-align=".*"\]/, // Safelist all data-align rules
+    /^spotlight\[data-align="[0-9]+%"\]/, // Safelist percentage-based alignments
   ],
 };
