@@ -4,8 +4,6 @@ module.exports = {
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
-    {
-      standard: [/^spotlight\[data-align=".*"\]/], // Corrected escaping for regex
-    },
+    /^spotlight\[data-align=".*"\]/, // Corrected safelist to use regex directly
   ],
 };
