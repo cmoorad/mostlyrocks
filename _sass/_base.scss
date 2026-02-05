@@ -2123,7 +2123,8 @@ body.home-page .container-wide.mt-5 {
     }
     
     /* Default center alignment */
-    .spotlight img {
+    .spotlight img,
+    a.spotlight img {
       object-fit: cover;
       width: 100%;
       height: 100%;
@@ -2132,23 +2133,27 @@ body.home-page .container-wide.mt-5 {
     }
     
     /* Top alignment - shows the top of the image */
-    .spotlight[data-align="top"] img {
+    .spotlight[data-align="top"] img,
+    a.spotlight[data-align="top"] img {
       object-position: center top;
     }
     
     /* Center alignment - shows the center of the image (default) */
-    .spotlight[data-align="center"] img {
+    .spotlight[data-align="center"] img,
+    a.spotlight[data-align="center"] img {
       object-position: center center;
     }
     
     /* Bottom alignment - shows the bottom of the image */
-    .spotlight[data-align="bottom"] img {
+    .spotlight[data-align="bottom"] img,
+    a.spotlight[data-align="bottom"] img {
       object-position: center bottom;
     }
     
     @for $i from 1 through 9 {
       $percentage: $i * 10%;
-      .spotlight[data-align="#{$i*10}%"] img {
+      .spotlight[data-align="#{$i*10}%"] img,
+      a.spotlight[data-align="#{$i*10}%"] img {
         object-position: center #{$percentage};
       }
     }
