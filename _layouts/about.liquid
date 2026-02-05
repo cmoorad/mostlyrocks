@@ -49,12 +49,13 @@ layout: default
                 {% assign folder = folder_parts | slice: 0, folder_index | join: '/' %}
                 {% assign cache_buster = site.time | date: '%s' %}
 
-                <a class="spotlight" href="{{ image.url }}" data-align="{{ image.align | default: 'center' }}" data-title="{{ image.alt }}">
+                <a class="spotlight" href="{{ image.url }}" data-align="{{ image.align | default: 'center' }}" data-title="{{ image.alt }}" style="--object-position: {% if image.align %}center {{ image.align }}{% else %}center center{% endif %};">
                   <img
                     src="https://images.mostlyrocks.com/{{ folder }}/thumbs/1200/{{ filename }}?v={{ cache_buster }}"
                     alt="{{ image.alt }}"
                     loading="lazy"
                     onerror="console.error('Could not load thumbnail:', this.src); this.src='{{ image.url }}';"
+                    style="object-position: var(--object-position);"
                   />
                 </a>
               {% endfor %}
