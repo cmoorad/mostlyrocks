@@ -135,15 +135,15 @@ ninja.data = [{
           window.location.href = "/snowboarding/2025/05/01/washington-2025.html";
         
       },
-    },{id: "post-red-rock-bishop-2025",
+    },{id: "post-red-rocks-bishop-2025",
       
-        title: "Red Rock + Bishop 2025",
+        title: "Red Rocks + Bishop 2025",
       
       description: "1 week of climbing at Red Rocks, NV and Bishop, CA",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/climbing/2025/03/29/red-rock-and-bishop-2025.html";
+          window.location.href = "/climbing/2025/03/29/red-rocks-and-bishop-2025.html";
         
       },
     },{id: "post-gardening-2025",
@@ -221,17 +221,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2025/01/01/index-2025.html";
-        
-      },
-    },{id: "post-alpine-lake-packrafting",
-      
-        title: "Alpine Lake Packrafting",
-      
-      description: "Pictures from packrafting in various alpine lakes.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/hidden/2025/01/01/alpine-packrafting.html";
         
       },
     },{id: "post-a-post-with-image-galleries",
@@ -432,6 +421,17 @@ ninja.data = [{
           window.location.href = "/backrafting/2023/07/15/stiletto.html";
         
       },
+    },{id: "post-lake-ida",
+      
+        title: "Lake Ida",
+      
+      description: "2 nights in Leavenworth",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2023/07/02/ida.html";
+        
+      },
     },{id: "post-washington-2023",
       
         title: "Washington 2023",
@@ -542,6 +542,17 @@ ninja.data = [{
           window.location.href = "/hidden/2023/01/01/template.html";
         
       },
+    },{id: "post-ice-lakes",
+      
+        title: "Ice Lakes",
+      
+      description: "2 nights under Mt. Maude",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2022/09/18/ice.html";
+        
+      },
     },{id: "post-wind-river-range-2022",
       
         title: "Wind River Range 2022",
@@ -551,6 +562,28 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2022/08/29/winds.html";
+        
+      },
+    },{id: "post-nameless-lake",
+      
+        title: "Nameless Lake",
+      
+      description: "1 night in the Chelan Sawtooth",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2022/08/14/nameless.html";
+        
+      },
+    },{id: "post-smith-lake",
+      
+        title: "Smith Lake",
+      
+      description: "2 weeks of backrafting in WA, CA, and OR",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2022/06/26/smith.html";
         
       },
     },{id: "post-cooke-city-2022",
@@ -606,6 +639,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/snowboarding/2021/01/05/cooke-2021.html";
+        
+      },
+    },{id: "post-the-archive",
+      
+        title: "The Archive",
+      
+      description: "A handful of older backrafting trips",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/backrafting/2021/01/01/older.html";
         
       },
     },{id: "post-a-post-with-images",
