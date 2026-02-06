@@ -13,15 +13,6 @@ images:
 
 Mostly rocks, sometimes not — here are my favorite photos of people, places, and landscapes.
 
-<div align=center>
-
-💡 Recommended: click into images for a spotlight view 💡
-
-<br>
-
-</div>
-
-
 ---
 
 <!-- Group 1 -->

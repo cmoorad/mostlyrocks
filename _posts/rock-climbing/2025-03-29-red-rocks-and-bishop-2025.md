@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Red Rock + Bishop 2025
+title: Red Rocks + Bishop 2025
 date: 2025-03-29 01:59:00
 description: 1 week of climbing at Red Rocks, NV and Bishop, CA
 thumbnail: https://images.mostlyrocks.com/2025/bishop/thumbs/1200/3.jpeg
@@ -21,7 +21,7 @@ This spring I took a spontaneous trip to Red Rocks + Bishop. My friend Jimmy was
 <div class="spotlight-group">
     <br>
     <h2><b>Red Rocks</b></h2>
-    I love the Red Rocks sandstone and especially enjoy the sporty mixed routes there — probably because the grades, like the rocks, are very soft. If I were to do it again I would avoid the RR Campground. It's very loud, it's in a weird location, and generally has some bad Vegas-vibes.
+    I love the Red Rocks sandstone and especially enjoy the sporty mixed routes there — it also doesn't hurt that the grades, like the rocks, are very soft. If I were to do it again I would avoid the RR Campground. It's very loud, it's in a weird location, and generally has some bad Vegas-vibes.
     <br><br>
     <a class="spotlight" href="https://images.mostlyrocks.com/2025/bishop/1.jpeg">
         <img width="600" src="https://images.mostlyrocks.com/2025/bishop/1.jpeg" /></a>
