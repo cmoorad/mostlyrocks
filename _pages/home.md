@@ -32,7 +32,7 @@ nav: false
     <div class="overlay-text">Backrafting</div>
   </a>
   <a href="/gardening" class="grid-item">
-    <img src="https://images.mostlyrocks.com/gardening/2025/thumbs/1200/6.jpeg" alt="Gardening">
+    <img src="https://images.mostlyrocks.com/home/gardening.jpeg" alt="Gardening">
     <div class="overlay-text">Gardening</div>
   </a>
   <a href="/recipes" class="grid-item">

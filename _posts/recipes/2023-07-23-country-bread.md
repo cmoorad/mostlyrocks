@@ -3,7 +3,7 @@ layout: post
 title: Country Bread
 date: 2023-07-23 01:59:00
 description: Pan de Champagne, a rustic French sourdough loaf
-thumbnail: https://images.mostlyrocks.com/recipes/country-bread/thumbs/1200/7.jpeg
+thumbnail: https://images.mostlyrocks.com/recipes/country-bread/thumbs/1200/8.jpeg
 categories: recipes
 thumbnail_position: top
 images:
