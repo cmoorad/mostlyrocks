@@ -344,6 +344,17 @@ ninja.data = [{
           window.location.href = "/recipes/2024/01/06/milk-bread.html";
         
       },
+    },{id: "post-gardening-2024",
+      
+        title: "Gardening 2024",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/gardening/2024/01/01/gardening-2024.html";
+        
+      },
     },{id: "post-cooke-city-2023",
       
         title: "Cooke City 2023",
