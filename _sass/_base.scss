@@ -636,10 +636,19 @@ footer.sticky-bottom {
   padding: 0;
 
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border: none;
     list-style: none;
-    /*padding-top: 1rem;
-    padding-bottom: 1rem;*/
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #e8e8e8;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
 
     .post-meta {
       color: var(--global-text-color-light);
@@ -661,6 +670,24 @@ footer.sticky-bottom {
       &:hover {
         color: var(--global-theme-color);
       }
+
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .col-sm-3 {
+        padding-left: 1rem !important;
+        padding-right: 2rem !important;
+        height: 350px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+
+      .col-sm-9 {
+        padding-left: 2rem !important;
+        padding-right: 1rem !important;
+      }
     }
 
     mjx-container[jax="CHTML"][display="true"] {
@@ -669,9 +696,35 @@ footer.sticky-bottom {
   }
 
   li:first-child {
-      border-top: 1px solid var(--global-divider-color);
+      margin-top: 0;
     }
 
+  // Mobile responsive: reorder image to top
+  @media (max-width: 576px) {
+    li a .row {
+      flex-direction: column-reverse;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    li a .col-sm-3 {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+      height: 250px !important;
+    }
+
+    li a .col-sm-9 {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+      width: 100% !important;
+    }
+  }
 }
 
 
@@ -1808,6 +1861,8 @@ html body .spl-title {
 .row {
   display: flex;
   align-items: center;
+  margin-left: -2rem;
+  margin-right: -2rem;
 
   .col-sm-3 {
     display: flex;
@@ -1817,6 +1872,8 @@ html body .spl-title {
     max-width: 60% !important;
     width: auto !important;
     height: 400px;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
     overflow: hidden;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1890,6 +1947,8 @@ html body .spl-title {
     flex: 1 !important;
     max-width: 40% !important;
     width: auto !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 
     font-weight: normal;
     h2 {
