@@ -2096,11 +2096,15 @@ body.home-page .container-wide.mt-5 {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjusted min-width to 400px */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 0; // no spacing between images
   margin: 0;
   padding: 0;
   width: 100%;
+
+  @media (max-width: 576px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
 .grid-item {
