@@ -520,6 +520,17 @@ ninja.data = [{
           window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
         
       },
+    },{id: "post-gardening-2023",
+      
+        title: "Gardening 2023",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/gardening/2023/01/01/gardening-2023.html";
+        
+      },
     },{id: "post-leavenworth-2023",
       
         title: "Leavenworth 2023",
