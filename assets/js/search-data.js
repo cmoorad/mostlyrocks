@@ -150,7 +150,7 @@ ninja.data = [{
       
         title: "Gardening 2025",
       
-      description: "",
+      description: "A year of honing the razor",
       section: "Posts",
       handler: () => {
         
@@ -348,7 +348,7 @@ ninja.data = [{
       
         title: "Gardening 2024",
       
-      description: "",
+      description: "An easy year full of tomatoes",
       section: "Posts",
       handler: () => {
         
@@ -524,11 +524,22 @@ ninja.data = [{
       
         title: "Gardening 2023",
       
-      description: "",
+      description: "A year of hands-off trail-and-error",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/gardening/2023/01/01/gardening-2023.html";
+        
+      },
+    },{id: "post-gardening-2022",
+      
+        title: "Gardening 2022",
+      
+      description: "A year of learning",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/gardening/2023/01/01/gardening-2022.html";
         
       },
     },{id: "post-leavenworth-2023",
