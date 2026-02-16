@@ -333,6 +333,17 @@ ninja.data = [{
           window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
         
       },
+    },{id: "post-latte-art",
+      
+        title: "Latte Art",
+      
+      description: "A year of learning latte art",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2024/01/06/latte-art.html";
+        
+      },
     },{id: "post-milk-bread",
       
         title: "Milk Bread",
