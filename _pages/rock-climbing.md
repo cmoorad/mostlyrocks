@@ -22,20 +22,19 @@ nav_order: 2
     <h2>{{ "A collection of rock climbing trips and photos." }}</h2>
 </div>
 
-<br>
 
-  <ul class="post-list">
 
-  {% assign postlist = site.categories.climbing %}
+{% assign postlist = site.categories.climbing %}
+{% include year-filter.liquid posts=postlist %}
 
+  <ul class="post-list" id="year-filter-target">
 
     {% for post in postlist %}
 
-    
     {% assign year = post.date | date: "%Y" %}
 
 
-<li>
+<li class="year-filter-item" data-year="{{ year }}">
   <a href="{{ post.url | relative_url }}" class="post-link-wrapper">
     <div class="row">
       <div class="col-sm-9">
