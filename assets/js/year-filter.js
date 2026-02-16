@@ -1,0 +1,1 @@
+$(document).ready(function(){const t=$(".year-filter-btn"),e=$(".year-filter-item");0!==t.length&&t.on("click",function(){const a=$(this).data("year");t.removeClass("year-filter-btn--active"),$(this).addClass("year-filter-btn--active"),"all"===a?e.fadeIn(200):e.each(function(){$(this).data("year")==a?$(this).fadeIn(200):$(this).fadeOut(200)})})});

@@ -355,17 +355,6 @@ ninja.data = [{
           window.location.href = "/gardening/2024/01/01/gardening-2024.html";
         
       },
-    },{id: "post-cooke-city-2023",
-      
-        title: "Cooke City 2023",
-      
-      description: "New Years at the Cooke City yurt, MT.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/snowboarding/2024/01/01/cooke-2023.html";
-        
-      },
     },{id: "post-leavenworth-2024",
       
         title: "Leavenworth 2024",
@@ -386,6 +375,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2024/01/01/index-2024.html";
+        
+      },
+    },{id: "post-cooke-city-2023",
+      
+        title: "Cooke City 2023",
+      
+      description: "New Years at the Cooke City yurt, MT.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2024/01/01/cooke-2023.html";
         
       },
     },{id: "post-indian-creek-2023",
