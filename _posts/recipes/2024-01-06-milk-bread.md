@@ -20,7 +20,7 @@ Makes: 1 round
 For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours of rising and resting.
 
 <div align="center">
-    ⚠️ <b>I would not try to do this recipe without a stand mixer. You would be kneading dough for 1 hour.</b> ⚠️
+    ⚠️ <b>I would not try to do this recipe without a stand mixer. You would be kneading dough for more than 1 hour.</b> ⚠️
 </div>
 
 <br>
@@ -29,7 +29,7 @@ For dinner, start at noon the day before. ~1 hour hands-on, plus 6 or 26 hours o
 - Mixing & kneading: 30ish min  
 - Bulk rise: 30–90 min (plus overnight optional)  
 - Shaping: 10 min
-- Final proof: 1.5–3 hours  
+- Final proof: 1.5–3 hours
 - Bake: 25–35 min
 
 <!-- First set of images -->
@@ -75,16 +75,16 @@ Garlic butter topping:
 
 ## Instructions
 1. **Make the tangzhong:**  
-    Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, stirring constantly, until thick like pudding (about 2 minutes). Scrape into stand mixer bowl and  cool completely (you can throw it in the freezer for 10 min if in a hurry).
+    Whisk tangzhong ingredients in a small saucepan or skillet. Cook over low heat, whisking constantly, until it turns thick like vanilla pudding (about 2 minutes). Scrape into stand mixer bowl and  cool completely (you can throw it in the freezer for 10 min if in a hurry).
 
 2. **Make the dough:**  
-    Add all ingredients (except butter) to the bowl. Mix on low until combined, then up to 2nd speed for 12 minutes. Add the butter one tbsp at a time and continue mixing for another 12 minutes, until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
+    Add all ingredients (except butter) to the bowl. Using a dough hook, mix on low until combined, then up to 2nd speed for 12 minutes. Add the butter one tbsp at a time and continue mixing for another 12 minutes, until smooth dough forms (do window pane test), scraping down walls of bowl as needed.
 
 3. **First rise:**  
-    After the dough has enough structure to pass window pane test, take it out, fold it into a tight ball, and place back in bowl seam-down. Cover the bowl and rest dough at room temp for 30 minutes and then place in the fridge overnight. If baking same-day, let rise for 1.5 hours or until doubled (can take up to 4 hours!).
+    After the dough has enough structure to pass window pane test (another 10-20 minutes of mixing!), take it out, fold it into a tight ball, and place back in bowl seam-down. Cover the bowl and rest dough at room temp for 30 minutes and then place in the fridge overnight. If baking same-day, let rise for 1.5 hours or until doubled (can take up to 4 hours!).
 
 4. **Shape:**  
-    Butter a 9-10” pan. Deflate dough and cut into 10 even pieces, rolling each into a tight ball (use the counter to create surface tension). Place all the balls into buttered pan, cover and let rise for 2 hours (or until doubled, do "poke" proof test).
+    Butter a 9-10” pan. Deflate dough and cut into 10 even pieces, rolling each into a tight ball (use the counter to create surface tension). If you've never shaped rolls like this, [watch a video](https://www.youtube.com/shorts/O9TIoZlS0uo). Place all the balls into buttered pan, cover and let rise for 2 hours (or until doubled, do "poke" proof test).
 
 5. **Egg wash & bake:**  
     Preheat oven to 350ºF. Beat 1 egg and brush rolls or loaves. Bake 25–30 min until golden and 190ºF inside.
