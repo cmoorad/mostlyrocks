@@ -333,17 +333,6 @@ ninja.data = [{
           window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
         
       },
-    },{id: "post-latte-art",
-      
-        title: "Latte Art",
-      
-      description: "A year of learning latte art",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/recipes/2024/01/06/latte-art.html";
-        
-      },
     },{id: "post-milk-bread",
       
         title: "Milk Bread",
@@ -672,6 +661,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/climbing/2022/01/01/leavenworth-2022.html";
+        
+      },
+    },{id: "post-latte-art",
+      
+        title: "Latte Art",
+      
+      description: "A year of learning latte art",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2021/02/10/latte-art.html";
         
       },
     },{id: "post-cooke-city-2021",
