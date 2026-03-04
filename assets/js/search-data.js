@@ -520,6 +520,17 @@ ninja.data = [{
           window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
         
       },
+    },{id: "post-english-muffins",
+      
+        title: "English Muffins",
+      
+      description: "The easiest way to make great English Muffins",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2023/03/04/english-muffins.html";
+        
+      },
     },{id: "post-gardening-2023",
       
         title: "Gardening 2023",
