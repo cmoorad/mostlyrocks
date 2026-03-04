@@ -2278,6 +2278,27 @@ body.home-page .container-wide.mt-5 {
   }
 }
 
+/* Latte art specific image row with mobile optimization */
+.latte-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  width: 100%;
+}
+
+.latte-image-row .spotlight img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .latte-image-row .spotlight img {
+    width: 100px !important;
+  }
+}
+
 
 /* attempting to widen the home page */
 
