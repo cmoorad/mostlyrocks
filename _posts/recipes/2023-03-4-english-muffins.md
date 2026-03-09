@@ -18,7 +18,7 @@ Yield: **8-12 English Muffins**
 
 ---
 
-All bread is 10x better homemade than from the store — English Muffins are no exception. They taste almost like a cookie they're so good. I combined three recipes into this simple version — it makes extremely dank English Muffins. Shoutout to Bridget Bryck who gave me the idea.
+All bread is 10x better homemade than from the store — English Muffins are no exception. They taste almost like a cookie they're so good. I combined three recipes into this simple version — it makes extremely flavorful English Muffins. Shoutout to Bridget Bryck who inspired me to bake this treat.
 
 ---
 
