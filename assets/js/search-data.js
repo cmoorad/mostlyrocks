@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/collections/";
               },
-            },{id: "post-gallery",
+            },{id: "post-sesame-sourdough",
+      
+        title: "Sesame Sourdough",
+      
+      description: "A wheaty sesame loaf",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2026/02/01/sesame-sourdough.html";
+        
+      },
+    },{id: "post-gallery",
       
         title: "Gallery",
       
