@@ -27,10 +27,10 @@ All bread is 10x better homemade than from the store — English Muffins are no 
 <div class="spotlight-group">
     <div align="center">
         <div class="image-row">
-            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/1.jpeg" data-group="milk-bread">
+            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/1.jpeg" data-group="english-muffins">
                 <img width="282" src="https://images.mostlyrocks.com/recipes/english-muffins/1.jpeg" />
             </a>
-            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/2.jpeg" data-group="milk-bread">
+            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/2.jpeg" data-group="english-muffins">
                 <img width="500" src="https://images.mostlyrocks.com/recipes/english-muffins/2.jpeg" />
             </a>
         </div>
@@ -84,7 +84,7 @@ All bread is 10x better homemade than from the store — English Muffins are no 
 <div class="spotlight-group">
     <div align="center">
         <div class="image-row">
-            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/3.jpeg" data-group="milk-bread">
+            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/english-muffins/3.jpeg" data-group="english-muffins">
                 <img width="500" src="https://images.mostlyrocks.com/recipes/english-muffins/3.jpeg" />
             </a>
         </div>
