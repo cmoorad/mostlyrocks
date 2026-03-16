@@ -151,20 +151,20 @@ Back to the Creek! We only spent a week there this time but we made the most of 
             <img width="400" src="https://images.mostlyrocks.com/2025/indian-creek/27.jpeg" />
         </a>
     </div>
-    Me on Go Sparky Go. Warren took pics of me at every part except the crux 😂
+    Me sending Go Sparky Go. Warren forgot to take pics at the crux lol
     <br><br>
     <hr>
     <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/28.jpeg">
-        <img width="600" src="https://images.mostlyrocks.com/2025/indian-creek/28.jpeg" />
+        <img width="319" src="https://images.mostlyrocks.com/2025/indian-creek/28.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/29.jpeg">
-        <img width="600" src="https://images.mostlyrocks.com/2025/indian-creek/29.jpeg" />
+        <img width="565" src="https://images.mostlyrocks.com/2025/indian-creek/29.jpeg" />
     </a>
     <a class="spotlight" href="https://images.mostlyrocks.com/2025/indian-creek/30.jpeg">
         <img width="815" src="https://images.mostlyrocks.com/2025/indian-creek/30.jpeg" />
     </a>
     <br>
-    Amazing hangs at camp!
+    Great hangs at camp!
     <br><br>
     <hr>
     <h2><b>Fin Wall</b></h2>
@@ -224,7 +224,7 @@ Back to the Creek! We only spent a week there this time but we made the most of 
         <img width="815" src="https://images.mostlyrocks.com/2025/indian-creek/39.jpeg" />
     </a>
     <br>
-    18 hours later — with red sand in our shoes and desert sun in our hearts — and we landed back in wet, dark Washington! Our hopes that the snows would be soon to follow were shortly squandered and left us swearing to a longer trip next year!$$
+    18 hours later — with red sand in our shoes and desert sun in our hearts — and we landed back in wet, dark Washington! Our hopes that the snows would be soon to follow were shortly squandered and left us swearing to a longer trip next year!
     <br><br>
 </div>
 </div>
