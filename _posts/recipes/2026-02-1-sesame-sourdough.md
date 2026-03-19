@@ -42,7 +42,7 @@ This sesame sourdough loaf builds on the same technique used in my [country brea
 ## Ingredients
 - 280g bread flour
 - 185g whole wheat flour
-- 12g fine salt
+- 12g salt
 - 12g honey
 - 45g sesame seeds
 - 25g sourdough culture
