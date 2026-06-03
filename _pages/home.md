@@ -29,7 +29,7 @@ nav: false
   </a>
   <a href="/backrafting" class="grid-item">
     <img src="https://images.mostlyrocks.com/backrafting/nameless.jpeg" alt="Backrafting">
-    <div class="overlay-text">Backrafting</div>
+    <div class="overlay-text">Packrafting</div>
   </a>
   <a href="/gardening" class="grid-item">
     <img src="https://images.mostlyrocks.com/home/gardening.jpeg" alt="Gardening">
