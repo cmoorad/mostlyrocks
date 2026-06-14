@@ -57,7 +57,7 @@ All bread is 10x better homemade than from the store — English Muffins are no 
 
 1. **Mix**
  - Put everything in a stand mixer bowl
- - Mix on low until combined
+ - Mix on low (dough hook) until combined
  - Then mix on medium (4), scraping down occasionally, for 8 minutes
  - Scrape down, cover and let rise for 60-90 minutes
 

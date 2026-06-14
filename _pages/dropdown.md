@@ -8,7 +8,7 @@ children:
   - title: Snowboarding
     permalink: /snowboarding/
   - title: divider
-  - title: Backrafting
+  - title: Packrafting
     permalink: /backrafting/
   - title: divider
   - title: Recipes
