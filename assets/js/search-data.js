@@ -30,8 +30,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/snowboarding/";
               },
-            },{id: "dropdown-backrafting",
-              title: "Backrafting",
+            },{id: "dropdown-packrafting",
+              title: "Packrafting",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -540,6 +540,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/recipes/2023/03/04/english-muffins.html";
+        
+      },
+    },{id: "post-wheat-bread",
+      
+        title: "Wheat Bread",
+      
+      description: "Little-kid-pb&amp;j style whole wheat loaf",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2023/03/03/wheat-bread.html";
         
       },
     },{id: "post-gardening-2023",
