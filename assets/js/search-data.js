@@ -69,6 +69,17 @@ ninja.data = [{
           window.location.href = "/recipes/2026/02/01/sesame-sourdough.html";
         
       },
+    },{id: "post-orange-nut-scones",
+      
+        title: "Orange Nut Scones",
+      
+      description: "The perfect scone",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/recipes/2026/01/30/orange-nut-scones.html";
+        
+      },
     },{id: "post-gallery",
       
         title: "Gallery",
