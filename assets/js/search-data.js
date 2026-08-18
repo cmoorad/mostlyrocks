@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/collections/";
               },
-            },{id: "post-sesame-sourdough",
+            },{id: "post-washington-2026",
+      
+        title: "Washington 2026",
+      
+      description: "Snowboarding in Washington state in 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/snowboarding/2026/04/01/washington-2026.html";
+        
+      },
+    },{id: "post-sesame-sourdough",
       
         title: "Sesame Sourdough",
       
