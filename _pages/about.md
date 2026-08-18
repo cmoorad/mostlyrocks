@@ -91,4 +91,4 @@ Some friends took me rock climbing for the first time in 2016 at Rumney, NH. I f
 I started splitboarding in 2018 and am fortunate to have ridden in some cool places despite a hip condition that makes skinning very difficult for me.
 
 ### Website
-I am not a software engineer, but I've been able to build this website for free on GitHub thanks to AI. I used the [Al-Folio Jekyll template](https://github.com/alshedivat/al-folio) to get started, and I use S3 with Cloudfront to serve my images.
+I am not a software engineer, but I've been able to build this website for free on GitHub. I used the [Al-Folio Jekyll template](https://github.com/alshedivat/al-folio) to get started, and I use S3 with Cloudfront to serve my images.
