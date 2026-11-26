@@ -2,7 +2,7 @@
 layout: post
 title: Wheat Bread
 date: 2023-03-03 01:59:00
-description: Little-kid-pb&j style whole wheat loaf
+description: Childhood pb&j-style whole wheat loaf
 thumbnail: https://images.mostlyrocks.com/recipes/wheat-bread/thumbs/1200/2.jpeg
 thumbnail_position: 40%
 categories: recipes
@@ -18,7 +18,7 @@ Yield: **1 Pan Loaf**
 
 ---
 
-This little-kid-style wheat loaf is super easy to make if you have a stand mixer. It takes about 15 minutes of overall work and at the end you have a delicious loaf to use for toast and peanut butter sandwiches throughout the week. This loaf is the main reason I haven't bought bread in over a year.
+This kid-style wheat loaf is super easy to make if you have a stand mixer. It takes about 15 minutes of overall work and at the end you have a delicious loaf to use for toast and peanut butter sandwiches throughout the week. This loaf is the main reason I haven't bought bread in over a year.
 
 ---
 

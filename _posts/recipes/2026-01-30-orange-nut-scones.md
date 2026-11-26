@@ -3,7 +3,7 @@ layout: post
 title: Orange Nut Scones
 date: 2026-01-30 01:59:00
 description: The perfect scone
-thumbnail: https://images.mostlyrocks.com/recipes/orange-scones/thumbs/1200/9.jpeg
+thumbnail: https://images.mostlyrocks.com/recipes/orange-scones/thumbs/1200/7.jpeg
 thumbnail_position: center
 categories: recipes
 images:
@@ -18,7 +18,7 @@ Yield: **8 scones**
 
 ---
 
-Scones are adult food. They're kind of bland (compared to, say, a cookie) so they're best with coffee or nibbled on throughout the day. While these scones don't reinvent the wheel, they hold their own better than most. They're not overly sweet, but they don't need help from coffee to eat in one sitting. Scone makers get in a tizzy about keeping everything cold, but I think (like a pie crust) it's better to not stress about it; let the butter warm up as you're bringing the dough together, then cool it back down before baking.
+Scones are adult food. They're kind of bland (compared to, say, a cookie). While these scones don't reinvent the wheel, they hold their own better than most. They're not overly sweet, but they don't need help from coffee to eat in one sitting. Scone makers get in a tizzy about keeping everything cold, but I think (like a pie crust) it's better to not stress about it; let the butter warm up as you're bringing the dough together, then cool it back down before baking.
 
 ---
 
@@ -30,8 +30,8 @@ Scones are adult food. They're kind of bland (compared to, say, a cookie) so the
             <a class="spotlight" href="https://images.mostlyrocks.com/recipes/orange-scones/8.jpeg" data-group="orange-scones">
                 <img width="290" src="https://images.mostlyrocks.com/recipes/orange-scones/8.jpeg" />
             </a>
-            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/orange-scones/7.jpeg" data-group="orange-scones">
-                <img width="200" src="https://images.mostlyrocks.com/recipes/orange-scones/7.jpeg" />
+            <a class="spotlight" href="https://images.mostlyrocks.com/recipes/orange-scones/9.jpeg" data-group="orange-scones">
+                <img width="200" src="https://images.mostlyrocks.com/recipes/orange-scones/9.jpeg" />
             </a>
             <a class="spotlight" href="https://images.mostlyrocks.com/recipes/orange-scones/6.jpeg" data-group="orange-scones">
                 <img width="290" src="https://images.mostlyrocks.com/recipes/orange-scones/6.jpeg" />
