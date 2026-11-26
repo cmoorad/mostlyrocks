@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/collections/";
               },
-            },{id: "post-washington-2026",
+            },{id: "post-yosemite-2026",
+      
+        title: "Yosemite 2026",
+      
+      description: "3 weeks of climbing in Yosemite, CA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/climbing/2026/05/23/yosemite.html";
+        
+      },
+    },{id: "post-washington-2026",
       
         title: "Washington 2026",
       
@@ -568,7 +579,7 @@ ninja.data = [{
       
         title: "Wheat Bread",
       
-      description: "Little-kid-pb&amp;j style whole wheat loaf",
+      description: "Childhood pb&amp;j-style whole wheat loaf",
       section: "Posts",
       handler: () => {
         
